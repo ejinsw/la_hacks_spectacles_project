@@ -1,0 +1,42 @@
+- !<AssetImportMetadata/b728b6c0-edee-4e09-aabc-6b5d2eaa6dad>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 3e856e50-22db-4357-beb4-7b5ff00f9418
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 3e856e50-22db-4357-beb4-7b5ff00f9418
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> a2abb947-fa52-400d-ada3-25848ae7f98a
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/a2abb947-fa52-400d-ada3-25848ae7f98a>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 514df598-35a7-4656-8969-484dce7319d6
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    paintPrefab: false
+    parentObject: false
+  ScriptTypesHidden:
+    {}
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - paintPrefab: !<MappingBased.Object.Prefab> 00000000-0000-0000-0000-000000000000
+      parentObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input Asset.ObjectPrefab paintPrefab
+    - // @input SceneObject parentObject

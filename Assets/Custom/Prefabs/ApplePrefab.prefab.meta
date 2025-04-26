@@ -14,13 +14,22 @@
   ImporterSettings: !<AssetImporterSettings>
     {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
-- !<ObjectPrefab/2c9dabc4-1211-4a25-874b-20f7b145da24>
-  PackagePath: ""
-  objects:
-    - !<own> 67403437-dbab-4370-afbf-392b4e2db1a9
-  LazyLoading: false
-  RetainAssets: true
-- !<SceneObject/2d4fe818-0b9d-47b2-bc11-ec51f43e1b7a>
+- !<SceneObject/0d58c3eb-69be-4825-b418-deed79e1bd3a>
+  PrefabRemaps:
+    []
+  Name: Sketchfab_Scene
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> d4ac86b0-cd5b-4575-a44b-c67f60c59e96
+  Components:
+    - !<own> 79d30f82-b880-4e73-ba38-8364f67c0ef0
+- !<SceneObject/2b44f752-21b8-456a-96e5-6cfdbf760316>
   PrefabRemaps:
     []
   Name: Cube.001
@@ -32,24 +41,15 @@
     scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
   Children:
-    - !<own> c15ac2fb-807c-4afc-b552-cd05117b44e6
+    - !<own> ba3865f6-a070-45a8-bb0b-29d57a37f9f8
   Components:
     []
-- !<SceneObject/4f8e15da-9daf-450e-a385-26a0338c0b09>
-  PrefabRemaps:
-    []
-  Name: Sketchfab_Scene
-  Enabled: true
-  Layers: 1
-  LocalTransform:
-    position: {x: 0.000000, y: 1.000000, z: 0.000000}
-    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
-    scale: {x: 7.000000, y: 7.000000, z: 7.000000}
-    hasSegmentScaleCompensation: false
-  Children:
-    - !<own> a6d5de52-365c-4ec0-ae9c-80f926ce55a2
-  Components:
-    - !<own> 9e23da2f-93f3-449d-b084-ddbc6a71ebf4
+- !<ObjectPrefab/2c9dabc4-1211-4a25-874b-20f7b145da24>
+  PackagePath: ""
+  objects:
+    - !<own> 67403437-dbab-4370-afbf-392b4e2db1a9
+  LazyLoading: false
+  RetainAssets: true
 - !<BodyComponent/5113b03e-f28d-41a8-8bcb-aa109951c527>
   PrefabRemaps:
     []
@@ -67,12 +67,28 @@
   RotationTension: 30.000000
   ForceCompound: false
   Intangible: false
-  ShowCollider: false
+  ShowCollider: true
   Dynamic: true
   BodySetting: Density
-  BodySettingValue: 1.000000
+  BodySettingValue: 0.000000
   Damping: 0.000000
   AngularDamping: 0.000000
+- !<ScriptComponent/53cf5426-10f3-43db-97cc-c2d2a9dc4cd1>
+  PrefabRemaps:
+    []
+  Name: PrefabItem
+  Enabled: true
+  ScriptAsset: !<reference> 0b2c5991-45f0-4614-be75-9cc4993b51d9
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      {}
+  ScriptTypes:
+    "":
+      {}
 - !<ScriptComponent/57892447-ae23-4524-b26d-164cbc07f493>
   PrefabRemaps:
     []
@@ -140,13 +156,23 @@
     scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
   Children:
-    - !<own> 4f8e15da-9daf-450e-a385-26a0338c0b09
+    - !<own> dd52f6a7-e338-403c-8ad8-f475636b636e
   Components:
     - !<own> 5113b03e-f28d-41a8-8bcb-aa109951c527
     - !<own> 7f489409-6f3c-4c4e-a3f8-bfe583d728ca
     - !<own> 57892447-ae23-4524-b26d-164cbc07f493
     - !<own> d8b915fc-9bb4-4a7e-b668-bec7fd10a001
     - !<own> e686ed6a-125f-432b-a654-9c17411d54bd
+    - !<own> 53cf5426-10f3-43db-97cc-c2d2a9dc4cd1
+- !<AnimationPlayer/79d30f82-b880-4e73-ba38-8364f67c0ef0>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  Autoplay: true
+  ClipRangeType: Frames
+  AnimationClips:
+    []
 - !<ScriptComponent/7f489409-6f3c-4c4e-a3f8-bfe583d728ca>
   PrefabRemaps:
     []
@@ -177,22 +203,25 @@
       {}
 - !<ObjectPrefabAssetData/9762afae-2157-4e24-9bbc-a361ca9ee5af>
   SourceRemaps:
-    - 02672a79-bd81-4a41-bcd0-b15650737b16: a6d5de52-365c-4ec0-ae9c-80f926ce55a2
+    - 0fae36c5-20ee-41b9-aadd-1d6b36b5b2ae: 79d30f82-b880-4e73-ba38-8364f67c0ef0
+    - 1787d37d-096a-4841-ac0f-39b237ec297d: 53cf5426-10f3-43db-97cc-c2d2a9dc4cd1
+    - 1bf8cbad-f12f-4121-bb16-edf08226c9c8: d4ac86b0-cd5b-4575-a44b-c67f60c59e96
     - 1f0a3752-3ab9-4491-8234-c089a7d94fc7: e686ed6a-125f-432b-a654-9c17411d54bd
+    - 1f3497c5-eb01-49b4-9dc4-3f5306f199e4: e46a0957-c104-4955-8054-fc891f7c2f08
+    - 2523c466-74b1-49cd-81d9-72b33bf26105: a2d83b2e-3c60-408a-987a-2919d2905af0
     - 282e82a0-d123-4113-8aaa-db7de93bc6b7: 7f489409-6f3c-4c4e-a3f8-bfe583d728ca
-    - 2b66f81f-7d41-4e06-8f7c-3c507eacafc7: c15ac2fb-807c-4afc-b552-cd05117b44e6
-    - 3f800832-997a-44ca-8bf3-a48295dd7808: 9e23da2f-93f3-449d-b084-ddbc6a71ebf4
-    - 4ce2ddfd-5021-43f5-828e-5c9b87b2da1e: c9642fbd-77b5-4c2a-a5b3-02fabc3ca77a
-    - 59751c2e-28f2-4ebc-af18-dbc0ed620272: 4f8e15da-9daf-450e-a385-26a0338c0b09
+    - 55f4db52-671a-43ed-b499-ac89c5be5b30: dd52f6a7-e338-403c-8ad8-f475636b636e
+    - 5e84cb79-b923-417c-bb58-457f9765f1d8: c7deade4-4948-42d9-a596-064612d7e426
+    - 82554943-76e4-4a3d-98a7-0ec93ac10fe7: 2b44f752-21b8-456a-96e5-6cfdbf760316
+    - b48c4ebb-71cd-4029-b4f5-0ab0be247b3b: 0d58c3eb-69be-4825-b418-deed79e1bd3a
     - b5c40894-df18-4785-a9b5-53b214a6b933: d8b915fc-9bb4-4a7e-b668-bec7fd10a001
     - bbcde224-9f7f-4f69-89fc-c9e13080765c: 5113b03e-f28d-41a8-8bcb-aa109951c527
-    - bffdfdd8-968d-4e98-8ebd-ad8d2b137cf2: 9c9881e2-2d65-41de-b7a9-cc60806d94ca
     - c0a6b787-34ae-4e84-9d3c-09735da95b59: 67403437-dbab-4370-afbf-392b4e2db1a9
+    - e20097f5-9b0b-4632-a785-9d2adb8b8b70: ba3865f6-a070-45a8-bb0b-29d57a37f9f8
     - e9b074dc-2919-4451-8330-484694fa3fbe: 2c9dabc4-1211-4a25-874b-20f7b145da24
-    - e9bacdc6-a070-4fc4-9b6d-2800c56222c8: 2d4fe818-0b9d-47b2-bc11-ec51f43e1b7a
     - f01748cf-c346-4578-97fc-ff33f856a711: 57892447-ae23-4524-b26d-164cbc07f493
   SourceState: !<own> 2c9dabc4-1211-4a25-874b-20f7b145da24
-- !<SceneObject/9c9881e2-2d65-41de-b7a9-cc60806d94ca>
+- !<SceneObject/a2d83b2e-3c60-408a-987a-2919d2905af0>
   PrefabRemaps:
     []
   Name: Collada visual scene group
@@ -204,34 +233,10 @@
     scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
   Children:
-    - !<own> 2d4fe818-0b9d-47b2-bc11-ec51f43e1b7a
+    - !<own> 2b44f752-21b8-456a-96e5-6cfdbf760316
   Components:
     []
-- !<AnimationPlayer/9e23da2f-93f3-449d-b084-ddbc6a71ebf4>
-  PrefabRemaps:
-    []
-  Name: component_1
-  Enabled: true
-  Autoplay: true
-  ClipRangeType: Frames
-  AnimationClips:
-    []
-- !<SceneObject/a6d5de52-365c-4ec0-ae9c-80f926ce55a2>
-  PrefabRemaps:
-    []
-  Name: Sketchfab_model
-  Enabled: true
-  Layers: 1
-  LocalTransform:
-    position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    rotation: {x: -90.000000, y: 0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    hasSegmentScaleCompensation: false
-  Children:
-    - !<own> 9c9881e2-2d65-41de-b7a9-cc60806d94ca
-  Components:
-    []
-- !<SceneObject/c15ac2fb-807c-4afc-b552-cd05117b44e6>
+- !<SceneObject/ba3865f6-a070-45a8-bb0b-29d57a37f9f8>
   PrefabRemaps:
     []
   Name: defaultMaterial
@@ -245,8 +250,8 @@
   Children:
     []
   Components:
-    - !<own> c9642fbd-77b5-4c2a-a5b3-02fabc3ca77a
-- !<RenderMeshVisual/c9642fbd-77b5-4c2a-a5b3-02fabc3ca77a>
+    - !<own> c7deade4-4948-42d9-a596-064612d7e426
+- !<RenderMeshVisual/c7deade4-4948-42d9-a596-064612d7e426>
   PrefabRemaps:
     []
   Name: defaultMaterial
@@ -266,6 +271,21 @@
   BlendNormals: false
   BlendShapes:
     {}
+- !<SceneObject/d4ac86b0-cd5b-4575-a44b-c67f60c59e96>
+  PrefabRemaps:
+    []
+  Name: Sketchfab_model
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: -90.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> a2d83b2e-3c60-408a-987a-2919d2905af0
+  Components:
+    []
 - !<ScriptComponent/d8b915fc-9bb4-4a7e-b668-bec7fd10a001>
   PrefabRemaps:
     []
@@ -284,10 +304,40 @@
       activatingColor: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
       outlineWeight: 0.025000
       meshVisuals: !<reference.RenderMeshVisual[]>
-        - !<reference> c9642fbd-77b5-4c2a-a5b3-02fabc3ca77a
+        - !<reference> c7deade4-4948-42d9-a596-064612d7e426
   ScriptTypes:
     "":
       {}
+- !<SceneObject/dd52f6a7-e338-403c-8ad8-f475636b636e>
+  PrefabRemaps:
+    []
+  Name: scene
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 1.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 7.000000, y: 7.000000, z: 7.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> e46a0957-c104-4955-8054-fc891f7c2f08
+  Components:
+    []
+- !<SceneObject/e46a0957-c104-4955-8054-fc891f7c2f08>
+  PrefabRemaps:
+    []
+  Name: Scenes
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 0d58c3eb-69be-4825-b418-deed79e1bd3a
+  Components:
+    []
 - !<ScriptComponent/e686ed6a-125f-432b-a654-9c17411d54bd>
   PrefabRemaps:
     []

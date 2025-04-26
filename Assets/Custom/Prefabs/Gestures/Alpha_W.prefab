@@ -26,7 +26,6 @@
   Enabled: true
   ScriptAsset: !<reference> 1eb40896-318d-4f06-b675-881932129494
   ScriptInputsDefault:
-    handType: true
     checkType: true
     targetObject: true
     sendTriggers: true
@@ -36,7 +35,7 @@
     {}
   ScriptInputs:
     "":
-      handType: 0
+      handType: 2
       checkType: 0
       jointGroupA: !<string[]>
         - ring-3
@@ -76,7 +75,6 @@
   Enabled: true
   ScriptAsset: !<reference> 1eb40896-318d-4f06-b675-881932129494
   ScriptInputsDefault:
-    handType: true
     checkType: true
     targetObject: true
     sendTriggers: true
@@ -86,7 +84,7 @@
     {}
   ScriptInputs:
     "":
-      handType: 0
+      handType: 2
       checkType: 0
       jointGroupA: !<string[]>
         - index-3
@@ -138,7 +136,7 @@
   PrefabRemaps:
     []
   Name: Alpha_W
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -210,7 +208,6 @@
   Enabled: true
   ScriptAsset: !<reference> 1eb40896-318d-4f06-b675-881932129494
   ScriptInputsDefault:
-    handType: true
     checkType: true
     targetObject: true
     sendTriggers: true
@@ -220,7 +217,7 @@
     {}
   ScriptInputs:
     "":
-      handType: 0
+      handType: 2
       checkType: 0
       jointGroupA: !<string[]>
         - mid-3
@@ -260,7 +257,6 @@
   Enabled: true
   ScriptAsset: !<reference> 1eb40896-318d-4f06-b675-881932129494
   ScriptInputsDefault:
-    handType: true
     checkType: true
     targetObject: true
     sendTriggers: true
@@ -270,7 +266,7 @@
     {}
   ScriptInputs:
     "":
-      handType: 0
+      handType: 2
       checkType: 0
       jointGroupA: !<string[]>
         - pinky-3
@@ -325,7 +321,6 @@
   Enabled: true
   ScriptAsset: !<reference> 1eb40896-318d-4f06-b675-881932129494
   ScriptInputsDefault:
-    handType: true
     checkType: true
     targetObject: true
     sendTriggers: true
@@ -335,7 +330,7 @@
     {}
   ScriptInputs:
     "":
-      handType: 0
+      handType: 2
       checkType: 0
       jointGroupA: !<string[]>
         - index-3
@@ -406,7 +401,6 @@
   Enabled: true
   ScriptAsset: !<reference> 1eb40896-318d-4f06-b675-881932129494
   ScriptInputsDefault:
-    handType: true
     checkType: true
     targetObject: true
     minDistance: true
@@ -417,7 +411,7 @@
     {}
   ScriptInputs:
     "":
-      handType: 0
+      handType: 2
       checkType: 0
       jointGroupA: !<string[]>
         - pinky-3
@@ -441,7 +435,6 @@
   Enabled: true
   ScriptAsset: !<reference> 1eb40896-318d-4f06-b675-881932129494
   ScriptInputsDefault:
-    handType: true
     checkType: true
     targetObject: true
     sendTriggers: true
@@ -451,7 +444,7 @@
     {}
   ScriptInputs:
     "":
-      handType: 0
+      handType: 2
       checkType: 0
       jointGroupA: !<string[]>
         - ring-3

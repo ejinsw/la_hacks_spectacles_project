@@ -1,0 +1,458 @@
+- !<AssetImportMetadata/ba1ba28d-4951-45ee-a472-26403bb0ea49>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 950cbfb1-61b5-4d04-a652-be133fbfb915
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 950cbfb1-61b5-4d04-a652-be133fbfb915
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> fcc6da31-1fac-4d0b-997e-d240eac7e6ea
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptComponent/0ab0689b-6e65-4b6c-bb31-d14de822a239>
+  PrefabRemaps:
+    []
+  Name: GetJointDistance
+  Enabled: true
+  ScriptAsset: !<reference> 1eb40896-318d-4f06-b675-881932129494
+  ScriptInputsDefault:
+    handType: true
+    checkType: true
+    targetObject: true
+    sendTriggers: true
+    enterRangeTrigger: true
+    exitRangeTrigger: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      handType: 0
+      checkType: 0
+      jointGroupA: !<string[]>
+        - pinky-3
+      jointGroupB: !<string[]>
+        - wrist
+      targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      visualizeDistance: true
+      checkDistance: true
+      minDistance: !<float> 5.000000
+      maxDistance: !<float> 11.000000
+      sendTriggers: false
+      enterRangeTrigger: ""
+      exitRangeTrigger: ""
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/112e8f5c-2266-4669-a386-123544dfb86b>
+  PrefabRemaps:
+    []
+  Name: GetJointDistance
+  Enabled: true
+  ScriptAsset: !<reference> 1eb40896-318d-4f06-b675-881932129494
+  ScriptInputsDefault:
+    handType: true
+    checkType: true
+    targetObject: true
+    minDistance: true
+    sendTriggers: true
+    enterRangeTrigger: true
+    exitRangeTrigger: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      handType: 0
+      checkType: 0
+      jointGroupA: !<string[]>
+        - thumb-3
+      jointGroupB: !<string[]>
+        - ring-1
+      targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      visualizeDistance: true
+      checkDistance: true
+      minDistance: !<float> 0.000000
+      maxDistance: 4.500000
+      sendTriggers: false
+      enterRangeTrigger: ""
+      exitRangeTrigger: ""
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/349e47db-9615-4187-b30a-fa5d11394c61>
+  PrefabRemaps:
+    []
+  Name: IndexTip_to_MidTip
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 63e32b2c-80e5-4f8f-9998-27669cc370ae
+- !<SceneObject/3ebdf431-9b57-43a7-87ec-c3ad87e34955>
+  PrefabRemaps:
+    []
+  Name: Alpha_H
+  Enabled: false
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> ecff7129-0ae1-437d-8690-330cd21d6069
+    - !<own> aa0c7131-0b34-490a-8efe-3485f56c9bf8
+    - !<own> 349e47db-9615-4187-b30a-fa5d11394c61
+    - !<own> be271934-1483-4fc6-a283-b263d02d45bf
+    - !<own> b9615f47-b04d-4e52-839a-510d3ada9acc
+    - !<own> aa82fd3b-ae52-447f-ac28-cb780d96e381
+  Components:
+    - !<own> bad70217-04bf-419c-b09b-f356ed94fbad
+    - !<own> c65680a2-bc83-4281-a836-10e88c4c7114
+- !<ScriptComponent/41689121-f567-42fb-af58-6cc2f2d1bce4>
+  PrefabRemaps:
+    []
+  Name: GetJointDistance
+  Enabled: true
+  ScriptAsset: !<reference> 1eb40896-318d-4f06-b675-881932129494
+  ScriptInputsDefault:
+    handType: true
+    checkType: true
+    targetObject: true
+    sendTriggers: true
+    enterRangeTrigger: true
+    exitRangeTrigger: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      handType: 0
+      checkType: 0
+      jointGroupA: !<string[]>
+        - index-3
+      jointGroupB: !<string[]>
+        - wrist
+      targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      visualizeDistance: true
+      checkDistance: true
+      minDistance: !<float> 13.000000
+      maxDistance: !<float> 20.000000
+      sendTriggers: false
+      enterRangeTrigger: ""
+      exitRangeTrigger: ""
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/63e32b2c-80e5-4f8f-9998-27669cc370ae>
+  PrefabRemaps:
+    []
+  Name: GetJointDistance
+  Enabled: true
+  ScriptAsset: !<reference> 1eb40896-318d-4f06-b675-881932129494
+  ScriptInputsDefault:
+    handType: true
+    checkType: true
+    targetObject: true
+    sendTriggers: true
+    enterRangeTrigger: true
+    exitRangeTrigger: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      handType: 0
+      checkType: 0
+      jointGroupA: !<string[]>
+        - index-3
+      jointGroupB: !<string[]>
+        - mid-3
+      targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      visualizeDistance: true
+      checkDistance: true
+      minDistance: 1.500000
+      maxDistance: !<float> 5.000000
+      sendTriggers: false
+      enterRangeTrigger: ""
+      exitRangeTrigger: ""
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/aa0c7131-0b34-490a-8efe-3485f56c9bf8>
+  PrefabRemaps:
+    []
+  Name: MidTip_to_Wrist
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> cd471f48-6725-49d0-a9ea-db82abff8118
+- !<SceneObject/aa82fd3b-ae52-447f-ac28-cb780d96e381>
+  PrefabRemaps:
+    []
+  Name: ThumbTip_to_Ring1
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 112e8f5c-2266-4669-a386-123544dfb86b
+    - !<own> f7ba9efa-0041-441c-8e2c-549cdde64c51
+- !<ScriptComponent/b48ec212-e05b-44fd-824d-efe961a90a57>
+  PrefabRemaps:
+    []
+  Name: GetJointDistance
+  Enabled: true
+  ScriptAsset: !<reference> 1eb40896-318d-4f06-b675-881932129494
+  ScriptInputsDefault:
+    handType: true
+    checkType: true
+    targetObject: true
+    sendTriggers: true
+    enterRangeTrigger: true
+    exitRangeTrigger: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      handType: 0
+      checkType: 0
+      jointGroupA: !<string[]>
+        - ring-3
+      jointGroupB: !<string[]>
+        - wrist
+      targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      visualizeDistance: true
+      checkDistance: true
+      minDistance: !<float> 5.000000
+      maxDistance: !<float> 11.000000
+      sendTriggers: false
+      enterRangeTrigger: ""
+      exitRangeTrigger: ""
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/b9615f47-b04d-4e52-839a-510d3ada9acc>
+  PrefabRemaps:
+    []
+  Name: PinkyTip_to_Wrist
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 0ab0689b-6e65-4b6c-bb31-d14de822a239
+    - !<own> bd2fd777-81d7-4c3f-a454-047458e00fba
+- !<ScriptComponent/bad70217-04bf-419c-b09b-f356ed94fbad>
+  PrefabRemaps:
+    []
+  Name: GetJointDistanceManager
+  Enabled: true
+  ScriptAsset: !<reference> b1f8c052-6b77-4e53-907a-7e8e9e93c5f3
+  ScriptInputsDefault:
+    jointDistanceScripts: true
+    overwriteVisual: true
+    showVisualizer: true
+    setTextColor: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      useContainer: true
+      scriptContainer: !<reference.SceneObject> 3ebdf431-9b57-43a7-87ec-c3ad87e34955
+      jointDistanceScripts: !<reference.ScriptComponent[]>
+        []
+      overwriteVisual: false
+      showVisualizer: false
+      setTextColor: false
+      defaultColor: !<Vec4> {x: 0.263508, y: 0.478065, z: 1.000000, w: 1.000000}
+      passColor: !<Vec4> {x: 1.000000, y: 0.710979, z: 0.108049, w: 1.000000}
+      sendTriggers: true
+      gestureDetectedTrigger: receive_alpha_h
+      gestureLostTrigger: hide_success_message
+      logMessage: true
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/bd2fd777-81d7-4c3f-a454-047458e00fba>
+  PrefabRemaps:
+    []
+  Name: Untitled JavaScript
+  Enabled: true
+  ScriptAsset: !<reference> 4c5c0c37-21f2-4f2c-8714-da205b08ed21
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      {}
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/be271934-1483-4fc6-a283-b263d02d45bf>
+  PrefabRemaps:
+    []
+  Name: RingTip_to_Wrist
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b48ec212-e05b-44fd-824d-efe961a90a57
+    - !<own> ea10e598-135d-4aa5-aff5-3d771bc8c910
+- !<ObjectPrefab/c32ca494-b482-4008-8eee-841046cbadf0>
+  PackagePath: ""
+  objects:
+    - !<own> 3ebdf431-9b57-43a7-87ec-c3ad87e34955
+  LazyLoading: false
+  RetainAssets: true
+- !<ScriptComponent/c65680a2-bc83-4281-a836-10e88c4c7114>
+  PrefabRemaps:
+    []
+  Name: Script
+  Enabled: true
+  ScriptAsset: !<reference> 00000000-0000-0000-0000-000000000000
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      {}
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/cd471f48-6725-49d0-a9ea-db82abff8118>
+  PrefabRemaps:
+    []
+  Name: GetJointDistance
+  Enabled: true
+  ScriptAsset: !<reference> 1eb40896-318d-4f06-b675-881932129494
+  ScriptInputsDefault:
+    handType: true
+    checkType: true
+    targetObject: true
+    sendTriggers: true
+    enterRangeTrigger: true
+    exitRangeTrigger: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      handType: 0
+      checkType: 0
+      jointGroupA: !<string[]>
+        - mid-3
+      jointGroupB: !<string[]>
+        - wrist
+      targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      visualizeDistance: true
+      checkDistance: true
+      minDistance: !<float> 14.000000
+      maxDistance: !<float> 20.000000
+      sendTriggers: false
+      enterRangeTrigger: ""
+      exitRangeTrigger: ""
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/ea10e598-135d-4aa5-aff5-3d771bc8c910>
+  PrefabRemaps:
+    []
+  Name: Untitled JavaScript
+  Enabled: true
+  ScriptAsset: !<reference> 4c5c0c37-21f2-4f2c-8714-da205b08ed21
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      {}
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/ecff7129-0ae1-437d-8690-330cd21d6069>
+  PrefabRemaps:
+    []
+  Name: IndexTip_to_Wrist
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 41689121-f567-42fb-af58-6cc2f2d1bce4
+- !<ScriptComponent/f7ba9efa-0041-441c-8e2c-549cdde64c51>
+  PrefabRemaps:
+    []
+  Name: Untitled JavaScript
+  Enabled: true
+  ScriptAsset: !<reference> 4c5c0c37-21f2-4f2c-8714-da205b08ed21
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      {}
+  ScriptTypes:
+    "":
+      {}
+- !<ObjectPrefabAssetData/fcc6da31-1fac-4d0b-997e-d240eac7e6ea>
+  SourceRemaps:
+    - 1356d623-5c99-4562-9524-7572ebf05d7f: c65680a2-bc83-4281-a836-10e88c4c7114
+    - 17fb9747-2861-4fef-9734-f1658f00cae9: 3ebdf431-9b57-43a7-87ec-c3ad87e34955
+    - 2816f004-53b6-423b-8e96-d18648364d33: b9615f47-b04d-4e52-839a-510d3ada9acc
+    - 2f048cdc-cd04-4d96-85a2-340d159b33ab: 112e8f5c-2266-4669-a386-123544dfb86b
+    - 2f71e5b8-c77b-4af6-98be-fd4ee2791bb5: b48ec212-e05b-44fd-824d-efe961a90a57
+    - 313ded62-6c69-4739-a4bc-6af9e603ad4f: f7ba9efa-0041-441c-8e2c-549cdde64c51
+    - 35a627e2-d45e-4db3-8f85-6b0930774ef4: ecff7129-0ae1-437d-8690-330cd21d6069
+    - 5bf43f4a-abbc-42f5-9cf5-1ed8b6d6cb6f: cd471f48-6725-49d0-a9ea-db82abff8118
+    - 6227bf67-2bb6-4fa3-a2ff-9ccb024faccb: bd2fd777-81d7-4c3f-a454-047458e00fba
+    - 950cbfb1-61b5-4d04-a652-be133fbfb915: c32ca494-b482-4008-8eee-841046cbadf0
+    - 9cea61ab-8435-45a7-9c43-1244ceed655d: 0ab0689b-6e65-4b6c-bb31-d14de822a239
+    - 9d0f4c51-e733-49db-bb80-c0aedccc6d8c: ea10e598-135d-4aa5-aff5-3d771bc8c910
+    - 9daa3f72-4e34-4c4b-ad45-3e22e17eb22b: 63e32b2c-80e5-4f8f-9998-27669cc370ae
+    - a00fc6bd-0c9b-4f06-9e35-5318025ae0cc: 41689121-f567-42fb-af58-6cc2f2d1bce4
+    - aa49e7e2-95eb-4599-b784-08049b78add5: be271934-1483-4fc6-a283-b263d02d45bf
+    - b927168d-e20e-428a-a143-d51e6670c620: 349e47db-9615-4187-b30a-fa5d11394c61
+    - f2cde9da-45d9-4cf3-9de3-4fb349a9f666: aa0c7131-0b34-490a-8efe-3485f56c9bf8
+    - fd48ce4e-a213-415f-953b-2a52d893fff0: aa82fd3b-ae52-447f-ac28-cb780d96e381
+    - fee596ee-83ee-485e-982e-3bf7eb2b00ae: bad70217-04bf-419c-b09b-f356ed94fbad
+  SourceState: !<own> c32ca494-b482-4008-8eee-841046cbadf0

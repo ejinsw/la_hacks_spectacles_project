@@ -19,10 +19,13 @@
     - 0052d8fe-bc7f-4cb6-8137-3ac66cd96263: 62b8dfd1-fa96-45bf-83f2-ba58b1e70762
     - 1e738a69-8605-4d36-b4dc-e9f866095907: e3aa6943-3890-4375-a11c-be6bda827e30
     - 32bab814-e9af-49f4-a891-3bb4a691ccb7: d5889280-8f3c-4c95-9a72-ead5f5dca2b8
+    - 3da8d753-4a71-4c6d-aa5d-6c946ae3d9dd: 30f2c3c0-0b3a-4223-bf19-abcb9eb22e37
+    - 3eef6b0a-247c-4c06-b9f8-f13d38a80646: aea2ba9b-7e68-4a63-ace6-2e02e5fae49b
     - 43404e60-d63f-46d5-86db-22665fb3b99c: 6f98ad8c-46ac-4998-8d70-2cdf483011dc
     - 46a1d784-2dff-4f3e-8a92-7c5681f9d78a: bca05953-f956-425e-a178-4cf06afb6de8
     - 560314c7-e257-47c2-96d2-306bed0d8857: 613dd8b8-8478-485e-84a2-952fffaf4f92
     - 564726f2-cdde-4247-9479-4aa773915871: a1e409d9-a0b4-42be-94e7-fcad04b7a853
+    - 67ea63c2-8e62-4b6c-a38f-859293c81095: 898961dc-029e-477f-bf44-5fb4fecedf8d
     - 6c1d96a3-d1e9-426c-a632-9c93976183ad: b95f664b-796b-44cc-bb39-cfbbd5d68e97
     - 6d286e61-c27c-497c-8660-358d8f883a8f: 315bf348-7b2b-4bf1-b789-0bb31a74e1c8
     - 8bf61563-986f-4222-99c0-346896ba3f39: 709311cd-8063-4884-8b10-23112791e13a
@@ -48,6 +51,23 @@
   ScriptInputs:
     "":
       {}
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/30f2c3c0-0b3a-4223-bf19-abcb9eb22e37>
+  PrefabRemaps:
+    []
+  Name: PaintBrush
+  Enabled: true
+  ScriptAsset: !<reference> 3e856e50-22db-4357-beb4-7b5ff00f9418
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      paintPrefab: !<reference.ObjectPrefab> 1046684b-6a8a-4583-9b10-6501d69ecc35
+      parentObject: !<reference.SceneObject> 0c7311f1-c96c-4234-9597-b071692a5467
   ScriptTypes:
     "":
       {}
@@ -174,6 +194,26 @@
     - !<own> d5889280-8f3c-4c95-9a72-ead5f5dca2b8
   Components:
     []
+- !<RenderMeshVisual/898961dc-029e-477f-bf44-5fb4fecedf8d>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 7d5be14c-4635-40bb-a558-2863c112f09b
+  Mesh: !<reference> 39ba5bac-9925-47f9-8b36-e839e94e6199
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
 - !<ScriptComponent/a1e409d9-a0b4-42be-94e7-fcad04b7a853>
   PrefabRemaps:
     []
@@ -257,6 +297,21 @@
   ScriptTypes:
     "":
       {}
+- !<SceneObject/aea2ba9b-7e68-4a63-ace6-2e02e5fae49b>
+  PrefabRemaps:
+    []
+  Name: PaintBall
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 898961dc-029e-477f-bf44-5fb4fecedf8d
 - !<BodyComponent/b95f664b-796b-44cc-bb39-cfbbd5d68e97>
   PrefabRemaps:
     []
@@ -329,7 +384,7 @@
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
     scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
   Children:
@@ -373,6 +428,7 @@
     hasSegmentScaleCompensation: false
   Children:
     - !<own> d7633f93-2605-4d50-a9fe-b05c36ad220b
+    - !<own> aea2ba9b-7e68-4a63-ace6-2e02e5fae49b
   Components:
     - !<own> b95f664b-796b-44cc-bb39-cfbbd5d68e97
     - !<own> a1e409d9-a0b4-42be-94e7-fcad04b7a853
@@ -380,3 +436,4 @@
     - !<own> 315bf348-7b2b-4bf1-b789-0bb31a74e1c8
     - !<own> bca05953-f956-425e-a178-4cf06afb6de8
     - !<own> 1d09aab9-7256-43ed-825c-616e9c6cbd10
+    - !<own> 30f2c3c0-0b3a-4223-bf19-abcb9eb22e37

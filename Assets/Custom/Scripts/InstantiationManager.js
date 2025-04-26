@@ -12,7 +12,7 @@ function onReceiveInstantiate() {
         if (text.toLowerCase() === script.objectNames[i].toLowerCase()) {
             var entry = script.objectList[i];
             const instanceObject = entry.instantiate(script.parentObject);
-            instanceObject.getTransform().setWorldPosition(new vec3(0, 0, 0));
+            instanceObject.getTransform().setWorldPosition(new vec3(0, -10, -40));
         }
     }
 

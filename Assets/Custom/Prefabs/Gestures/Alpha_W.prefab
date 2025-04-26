@@ -44,8 +44,8 @@
       targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       visualizeDistance: true
       checkDistance: true
-      minDistance: !<float> 3.000000
-      maxDistance: !<float> 8.000000
+      minDistance: !<float> 4.000000
+      maxDistance: !<float> 7.000000
       sendTriggers: false
       enterRangeTrigger: ""
       exitRangeTrigger: ""
@@ -340,7 +340,7 @@
       visualizeDistance: true
       checkDistance: true
       minDistance: !<float> 3.000000
-      maxDistance: !<float> 8.000000
+      maxDistance: !<float> 6.000000
       sendTriggers: false
       enterRangeTrigger: ""
       exitRangeTrigger: ""
@@ -453,7 +453,7 @@
       targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       visualizeDistance: true
       checkDistance: true
-      minDistance: 15.500000
+      minDistance: 16.500000
       maxDistance: !<float> 22.000000
       sendTriggers: false
       enterRangeTrigger: ""

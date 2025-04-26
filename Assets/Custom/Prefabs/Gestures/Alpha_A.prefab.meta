@@ -18,7 +18,7 @@
   PrefabRemaps:
     []
   Name: Alpha_A
-  Enabled: false
+  Enabled: true
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}

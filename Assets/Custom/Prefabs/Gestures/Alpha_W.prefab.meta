@@ -64,7 +64,7 @@
   PrefabRemaps:
     []
   Name: Alpha_W
-  Enabled: false
+  Enabled: true
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -72,9 +72,9 @@
     scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
   Children:
-    - !<own> ddc76fab-616d-42ec-b6ad-16538c46f4e4
     - !<own> b19851b0-edb6-4c79-9acc-71a9baab968c
     - !<own> 2e7bde30-3bc5-479c-b0f9-86c88a0ea720
+    - !<own> ddc76fab-616d-42ec-b6ad-16538c46f4e4
     - !<own> 168e9aa4-4dbe-4e02-9a3a-5756dc3aafbe
     - !<own> 7b70d794-9a65-4f7b-815e-1e2ffc4a8683
     - !<own> 7f343bc6-13bc-466f-a9e9-0c6860564c17
@@ -123,8 +123,8 @@
       targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       visualizeDistance: true
       checkDistance: true
-      minDistance: !<float> 1.000000
-      maxDistance: 4.500000
+      minDistance: !<float> 3.000000
+      maxDistance: !<float> 8.000000
       sendTriggers: false
       enterRangeTrigger: ""
       exitRangeTrigger: ""
@@ -235,8 +235,8 @@
       targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       visualizeDistance: true
       checkDistance: true
-      minDistance: !<float> 13.000000
-      maxDistance: !<float> 20.000000
+      minDistance: 15.500000
+      maxDistance: !<float> 22.000000
       sendTriggers: false
       enterRangeTrigger: ""
       exitRangeTrigger: ""
@@ -268,8 +268,8 @@
       targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       visualizeDistance: true
       checkDistance: true
-      minDistance: !<float> 13.000000
-      maxDistance: !<float> 20.000000
+      minDistance: !<float> 16.000000
+      maxDistance: !<float> 22.000000
       sendTriggers: false
       enterRangeTrigger: ""
       exitRangeTrigger: ""
@@ -301,7 +301,7 @@
       targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       visualizeDistance: true
       checkDistance: true
-      minDistance: !<float> 5.000000
+      minDistance: !<float> 10.000000
       maxDistance: !<float> 13.000000
       sendTriggers: false
       enterRangeTrigger: ""
@@ -349,8 +349,8 @@
       targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       visualizeDistance: true
       checkDistance: true
-      minDistance: !<float> 14.000000
-      maxDistance: !<float> 20.000000
+      minDistance: !<float> 17.000000
+      maxDistance: !<float> 22.000000
       sendTriggers: false
       enterRangeTrigger: ""
       exitRangeTrigger: ""
@@ -424,7 +424,7 @@
       visualizeDistance: true
       checkDistance: true
       minDistance: !<float> 0.000000
-      maxDistance: 1.500000
+      maxDistance: !<float> 2.000000
       sendTriggers: false
       enterRangeTrigger: ""
       exitRangeTrigger: ""
@@ -493,8 +493,8 @@
       targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       visualizeDistance: true
       checkDistance: true
-      minDistance: !<float> 1.000000
-      maxDistance: 4.500000
+      minDistance: !<float> 3.000000
+      maxDistance: !<float> 8.000000
       sendTriggers: false
       enterRangeTrigger: ""
       exitRangeTrigger: ""

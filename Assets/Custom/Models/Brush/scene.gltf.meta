@@ -1,0 +1,228 @@
+- !<AssetImportMetadata/0f91e0a3-2244-4a83-8199-5785d779f28b>
+  ImportedAssetIds:
+    .hidden/lambert2: !<reference> 42bfc256-8092-436e-aedd-462f6796e3b3
+    00f3296c75fe220f: !<reference> 61793b8a-f650-43f9-8bcf-eabacb086ccf
+    2e56eb47701b1b85: !<reference> 0af1eb24-dfc1-45b0-b8d9-55c4f22e56c5
+    4a3e924fad0e2f27: !<reference> b148653e-9cf7-405e-882c-7bea52923d51
+    5456cd091e7655cc: !<reference> aee5158f-92b6-42ae-894e-50e44b2ec171
+    66780cf3a4dcb2b8: !<reference> 4f503b4d-4a5d-4981-95ab-ca827c258c54
+    6fd0a563900f21b2: !<reference> dd081376-d8f4-45b1-a64d-75a5e4db85f7
+    8cc004ff93d4b7dd: !<reference> 3830e8c8-edc3-4fcb-81c9-2cfbd653eaf6
+    97c3d6d778968173: !<reference> 3b85a3dd-7239-48e1-9628-2a02892e4681
+    Materials/lambert2: !<reference> 34c6198a-4662-4ed5-a239-91a0d3f68314
+    Materials/lambert2|lambert2|GraphPassInfo: !<reference> e34b4095-3bff-447e-bf72-54ec1af7ac63
+    Meshes/pCylinder51_lambert2_0: !<reference> 8833bc77-6d49-45e3-83ff-96f369609eb2
+    Scene: !<reference> 9e275139-b473-4e1e-a58e-c0d6c9a82be0
+    Textures/lambert2_baseColor: !<reference> d9bf5283-b265-4136-b63e-5d8f6e814b50
+    Textures/lambert2_metallicRoughness: !<reference> bec47efe-1889-4163-8568-1984c0733483
+    Textures/lambert2_normal: !<reference> d8fcd3fd-5ea9-4a1a-9bcf-dbbd7674d4f4
+    d6e2d14110b87074: !<reference> 5c3e4ee8-5af2-468a-8d5b-79f8bd1a1f49
+    ff7936aad4ab157c: !<reference> 796f724e-5557-4ce6-96e6-05cd6eb413ea
+  ImporterName: GltfImporter
+  PrimaryAsset: !<reference> 9e275139-b473-4e1e-a58e-c0d6c9a82be0
+  PackageType: LegacyPackage
+  PackagePolicy: CanBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> e8c76831-205e-4506-a6ba-119e23c28b25
+  DependentFiles:
+    - scene.bin
+    - textures/lambert2_baseColor.png
+    - textures/lambert2_metallicRoughness.png
+    - textures/lambert2_normal.png
+  ImporterSettings: !<GltfImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBased
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangents: true
+    ImportMorphTargetAnimation: true
+    ConvertMetersToCentimeters: true
+    RegenerateTangents: false
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<SingleCompressionSettings>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+      Performance Compression: !<SingleCompressionSettings>
+        CompressorName: Performance
+        CompressionSettings: !<TextureCompressionSettings>
+          Level: Medium
+    ExtensionMappings:
+      mesh: None Compression
+      png: Performance Compression
+    Overrides:
+      {}
+- !<SceneObject/01768f6d-4c88-4570-8fb9-398bb06f3774>
+  PrefabRemaps:
+    []
+  Name: RootNode
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 30a5305c-4aa8-438f-9f53-9909ec4427d0
+  Components:
+    []
+- !<SceneObject/2947613d-7986-437f-99f6-afc3ad649007>
+  PrefabRemaps:
+    []
+  Name: Sketchfab_Scene
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 3ed6e630-bb08-4938-9b5c-9099c6f60cc4
+  Components:
+    - !<own> e4d1c7e5-897c-4f6d-8637-baf36fa9209b
+- !<SceneObject/2b78fa8a-429c-4963-9a3f-6b6b0ab321d7>
+  PrefabRemaps:
+    []
+  Name: scene
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 9416844b-ade9-41b8-8bb0-9bec3c0ca32d
+  Components:
+    []
+- !<SceneObject/30a5305c-4aa8-438f-9f53-9909ec4427d0>
+  PrefabRemaps:
+    []
+  Name: pCylinder51
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.000186, y: 0.550000, z: 2.799380}
+    rotation: {x: -90.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 0.032099, y: 0.056289, z: 0.014289}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> dc39c427-9f2e-4ac4-8a93-42b97a5aaed7
+  Components:
+    []
+- !<SceneObject/3ed6e630-bb08-4938-9b5c-9099c6f60cc4>
+  PrefabRemaps:
+    []
+  Name: Sketchfab_model
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: -90.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> c6de7086-7e16-4e7f-8243-401e4f066399
+  Components:
+    []
+- !<RenderMeshVisual/8a41b84d-5114-4299-bfa6-fe27bf074e2a>
+  PrefabRemaps:
+    []
+  Name: pCylinder51_lambert2_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 34c6198a-4662-4ed5-a239-91a0d3f68314
+  Mesh: !<reference> 8833bc77-6d49-45e3-83ff-96f369609eb2
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ObjectPrefab/8d577594-0656-4399-83af-a8e626d0e337>
+  PackagePath: ""
+  objects:
+    - !<own> 2b78fa8a-429c-4963-9a3f-6b6b0ab321d7
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/9416844b-ade9-41b8-8bb0-9bec3c0ca32d>
+  PrefabRemaps:
+    []
+  Name: Scenes
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 2947613d-7986-437f-99f6-afc3ad649007
+  Components:
+    []
+- !<SceneObject/c6de7086-7e16-4e7f-8243-401e4f066399>
+  PrefabRemaps:
+    []
+  Name: 1b2df4590f7e4941bdbfef8b8f93235c.fbx
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 90.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 01768f6d-4c88-4570-8fb9-398bb06f3774
+  Components:
+    []
+- !<SceneObject/dc39c427-9f2e-4ac4-8a93-42b97a5aaed7>
+  PrefabRemaps:
+    []
+  Name: pCylinder51_lambert2_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 8a41b84d-5114-4299-bfa6-fe27bf074e2a
+- !<AnimationPlayer/e4d1c7e5-897c-4f6d-8637-baf36fa9209b>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  Autoplay: true
+  ClipRangeType: Frames
+  AnimationClips:
+    []
+- !<ObjectPrefabAssetData/e8c76831-205e-4506-a6ba-119e23c28b25>
+  SourceRemaps:
+    - 0af1eb24-dfc1-45b0-b8d9-55c4f22e56c5: 30a5305c-4aa8-438f-9f53-9909ec4427d0
+    - 3830e8c8-edc3-4fcb-81c9-2cfbd653eaf6: e4d1c7e5-897c-4f6d-8637-baf36fa9209b
+    - 3b85a3dd-7239-48e1-9628-2a02892e4681: c6de7086-7e16-4e7f-8243-401e4f066399
+    - 4f503b4d-4a5d-4981-95ab-ca827c258c54: 2b78fa8a-429c-4963-9a3f-6b6b0ab321d7
+    - 5c3e4ee8-5af2-468a-8d5b-79f8bd1a1f49: 01768f6d-4c88-4570-8fb9-398bb06f3774
+    - 61793b8a-f650-43f9-8bcf-eabacb086ccf: dc39c427-9f2e-4ac4-8a93-42b97a5aaed7
+    - 796f724e-5557-4ce6-96e6-05cd6eb413ea: 3ed6e630-bb08-4938-9b5c-9099c6f60cc4
+    - 9e275139-b473-4e1e-a58e-c0d6c9a82be0: 8d577594-0656-4399-83af-a8e626d0e337
+    - aee5158f-92b6-42ae-894e-50e44b2ec171: 2947613d-7986-437f-99f6-afc3ad649007
+    - b148653e-9cf7-405e-882c-7bea52923d51: 9416844b-ade9-41b8-8bb0-9bec3c0ca32d
+    - dd081376-d8f4-45b1-a64d-75a5e4db85f7: 8a41b84d-5114-4299-bfa6-fe27bf074e2a
+  SourceState: !<own> 8d577594-0656-4399-83af-a8e626d0e337

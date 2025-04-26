@@ -1,0 +1,11 @@
+Model Information:
+* title:	Low Poly Paint Brush
+* source:	https://sketchfab.com/3d-models/low-poly-paint-brush-54f105b0be154bbbae49d1d3aae2c6e1
+* author:	TheoClarke (https://sketchfab.com/TheoClarke)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Low Poly Paint Brush" (https://sketchfab.com/3d-models/low-poly-paint-brush-54f105b0be154bbbae49d1d3aae2c6e1) by TheoClarke (https://sketchfab.com/TheoClarke) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

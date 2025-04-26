@@ -136,7 +136,7 @@
   RotationTension: 30.000000
   ForceCompound: false
   Intangible: false
-  ShowCollider: false
+  ShowCollider: true
   Dynamic: true
   BodySetting: Density
   BodySettingValue: 0.000000
@@ -157,7 +157,7 @@
   LocalTransform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
     rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    scale: {x: 0.050000, y: 0.050000, z: 0.050000}
     hasSegmentScaleCompensation: false
   Children:
     - !<own> 20482ed6-4db6-497a-a21c-f69fc66f5adb
@@ -320,7 +320,7 @@
       activatingColor: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
       outlineWeight: 0.025000
       meshVisuals: !<reference.RenderMeshVisual[]>
-        - !<reference> 93c35418-7d5d-4a6d-9280-809ab2201f9a
+        - !<reference> c68e3cbe-af6d-49db-87a2-a6280d823228
   ScriptTypes:
     "":
       {}

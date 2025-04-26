@@ -348,7 +348,7 @@
       activatingColor: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
       outlineWeight: 0.025000
       meshVisuals: !<reference.RenderMeshVisual[]>
-        - !<reference> 93923a5d-a8b1-43cf-b998-51c1667dff58
+        - !<reference> 0189d043-d29c-413c-91f7-86ecb50fb2fd
   ScriptTypes:
     "":
       {}
@@ -414,8 +414,8 @@
   Name: Physics Body
   Enabled: true
   Shape: !<Box>
-    FitVisual: true
-    Size: {x: 15.000000, y: 15.000000, z: 15.000000}
+    FitVisual: false
+    Size: {x: 11.000000, y: 8.000000, z: 8.000000}
   Matter: !<reference> 00000000-0000-0000-0000-000000000000
   Filter: !<reference> 00000000-0000-0000-0000-000000000000
   OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
@@ -425,7 +425,7 @@
   RotationTension: 30.000000
   ForceCompound: false
   Intangible: false
-  ShowCollider: false
+  ShowCollider: true
   Dynamic: true
   BodySetting: Density
   BodySettingValue: 0.000000
@@ -517,21 +517,6 @@
   BlendNormals: false
   BlendShapes:
     {}
-- !<SceneObject/4e7e0b2b-9953-42ff-a14d-d8c32b4da10e>
-  PrefabRemaps:
-    []
-  Name: cicada_shadow_CICADA_SHADOW_0
-  Enabled: true
-  Layers: 1
-  LocalTransform:
-    position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    hasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> eebe8a75-7663-440c-8541-c5da29b3e796
 - !<SceneObject/4eb98d45-cfa0-49c8-8dfc-851e1568561b>
   PrefabRemaps:
     []
@@ -823,21 +808,6 @@
     []
   Components:
     - !<own> 0189d043-d29c-413c-91f7-86ecb50fb2fd
-- !<SceneObject/7dbf9b86-e93b-4622-82a3-2a5154c00072>
-  PrefabRemaps:
-    []
-  Name: cicada_shadow
-  Enabled: true
-  Layers: 1
-  LocalTransform:
-    position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    rotation: {x: 0.000000, y: -90.000000, z: 0.000000}
-    scale: {x: 0.025400, y: 0.025400, z: 0.025400}
-    hasSegmentScaleCompensation: false
-  Children:
-    - !<own> a3337abd-c8da-4cba-9693-549a280f6881
-  Components:
-    []
 - !<SceneObject/7e6fa5eb-6c85-45dc-bf49-eea37592dd33>
   PrefabRemaps:
     []
@@ -1136,29 +1106,14 @@
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    position: {x: 0.000000, y: -0.030000, z: 0.000000}
     rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    scale: {x: 0.250000, y: 0.250000, z: 0.250000}
+    scale: {x: 0.080000, y: 0.080000, z: 0.080000}
     hasSegmentScaleCompensation: false
   Children:
     - !<own> 59ed5ada-8c73-4b78-a8bf-6dd568fa5ba5
   Components:
     - !<own> e5e98b4b-fe2e-4664-b9d5-1ab84c7ee4d6
-- !<SceneObject/a3337abd-c8da-4cba-9693-549a280f6881>
-  PrefabRemaps:
-    []
-  Name: Object_65
-  Enabled: true
-  Layers: 1
-  LocalTransform:
-    position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    rotation: {x: -90.000000, y: 90.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    hasSegmentScaleCompensation: false
-  Children:
-    - !<own> 4e7e0b2b-9953-42ff-a14d-d8c32b4da10e
-  Components:
-    []
 - !<SceneObject/a65e50ba-fcf0-4a87-8f1d-a1807b37ef8b>
   PrefabRemaps:
     []
@@ -1597,26 +1552,6 @@
     - !<own> d79fe1ee-15d4-452a-8aca-bb4361450a9f
   Components:
     []
-- !<RenderMeshVisual/eebe8a75-7663-440c-8541-c5da29b3e796>
-  PrefabRemaps:
-    []
-  Name: cicada_shadow_CICADA_SHADOW_0
-  Enabled: true
-  RenderOrder: 0
-  StretchMode: Stretch
-  VerticalAlignment: Center
-  HorizontalAlignment: Center
-  MeshShadowMode: None
-  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-  ShadowDensity: 1.000000
-  Materials:
-    - !<reference> 8b231601-5b8e-4e0e-881d-db1b648dc46f
-  Mesh: !<reference> 21ec1747-8cea-4551-8a2e-a428b9cfcf4a
-  Skin: !<reference> 00000000-0000-0000-0000-000000000000
-  BlendShapesEnabled: true
-  BlendNormals: false
-  BlendShapes:
-    {}
 - !<RenderMeshVisual/ef2bf244-bcd1-4d79-86b3-b3fdc226a285>
   PrefabRemaps:
     []
@@ -1686,7 +1621,6 @@
     hasSegmentScaleCompensation: false
   Children:
     - !<own> 6b206338-a9a7-4ea2-a160-b2f9ef3f559c
-    - !<own> 7dbf9b86-e93b-4622-82a3-2a5154c00072
   Components:
     []
 - !<SceneObject/fdab0d83-d17e-490e-afa3-f288ae3a8277>

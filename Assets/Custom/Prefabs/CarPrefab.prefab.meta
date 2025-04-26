@@ -137,9 +137,9 @@
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    position: {x: 0.000000, y: -0.030000, z: 0.000000}
     rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    scale: {x: 0.250000, y: 0.250000, z: 0.250000}
+    scale: {x: 0.080000, y: 0.080000, z: 0.080000}
     hasSegmentScaleCompensation: false
   Children:
     - !<own> b4e6fa21-1650-4a13-b71e-6c39f5675047
@@ -296,7 +296,7 @@
       activatingColor: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
       outlineWeight: 0.025000
       meshVisuals: !<reference.RenderMeshVisual[]>
-        - !<reference> 93923a5d-a8b1-43cf-b998-51c1667dff58
+        - !<reference> 5ad22763-ebd4-4f5d-9d77-381ab68a5be5
   ScriptTypes:
     "":
       {}
@@ -531,8 +531,8 @@
   Name: Physics Body
   Enabled: true
   Shape: !<Box>
-    FitVisual: true
-    Size: {x: 15.000000, y: 15.000000, z: 15.000000}
+    FitVisual: false
+    Size: {x: 11.000000, y: 8.000000, z: 8.000000}
   Matter: !<reference> 00000000-0000-0000-0000-000000000000
   Filter: !<reference> 00000000-0000-0000-0000-000000000000
   OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
@@ -542,7 +542,7 @@
   RotationTension: 30.000000
   ForceCompound: false
   Intangible: false
-  ShowCollider: false
+  ShowCollider: true
   Dynamic: true
   BodySetting: Density
   BodySettingValue: 0.000000
@@ -629,7 +629,6 @@
     hasSegmentScaleCompensation: false
   Children:
     - !<own> 62ab2774-3086-4b36-8e80-20c3b95ef41c
-    - !<own> d8917794-79d7-42fd-aeae-3641f091a144
   Components:
     []
 - !<SceneObject/48d039ce-a6e6-4618-a041-ab076d1e1943>
@@ -938,36 +937,6 @@
     - !<own> 31831b4d-e8c4-455e-8fcf-bde1b23dba1b
   Components:
     []
-- !<SceneObject/7ddec473-da8d-440c-a9b8-be6130879ae2>
-  PrefabRemaps:
-    []
-  Name: cicada_shadow_CICADA_SHADOW_0
-  Enabled: true
-  Layers: 1
-  LocalTransform:
-    position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    hasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> a50eb453-63cb-4b3f-8aac-c17d214a15c3
-- !<SceneObject/7e87dc9f-e47f-4eb9-aa44-1c07db689aa8>
-  PrefabRemaps:
-    []
-  Name: Object_65
-  Enabled: true
-  Layers: 1
-  LocalTransform:
-    position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    rotation: {x: -90.000000, y: 90.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    hasSegmentScaleCompensation: false
-  Children:
-    - !<own> 7ddec473-da8d-440c-a9b8-be6130879ae2
-  Components:
-    []
 - !<SceneObject/80c72258-7f42-4aa6-88e6-09c103c6eac9>
   PrefabRemaps:
     []
@@ -1135,7 +1104,6 @@
     - 49c9791b-f92a-49da-9956-1409a8e0351e: 2e5cd12d-7b33-4a09-9f95-15f1c2fe6aea
     - 4bff3dba-99e3-4b76-b87d-d051268896b3: 0cb30923-7fde-4b1f-874e-cf87d6a51db6
     - 4cbba5d0-e355-4b7f-a451-981f39942f09: 272b1b29-ea6e-44d8-be9c-f8d761083f39
-    - 4e7e0b2b-9953-42ff-a14d-d8c32b4da10e: 7ddec473-da8d-440c-a9b8-be6130879ae2
     - 4eb98d45-cfa0-49c8-8dfc-851e1568561b: 090d1daa-fc51-4004-987c-86871edd2dd9
     - 504a61e0-13b1-4d0c-bff2-6d9d4d9055a3: 43bd5751-b36c-4a62-bdbd-9d4d8de1ae43
     - 52a08c94-9188-4cf2-a47c-a629bfc2fa83: e88a8c95-bed1-4c1d-8ff4-ad19660bf5c6
@@ -1154,7 +1122,6 @@
     - 760009b6-0599-485d-9426-3737067c83af: e7c6b9d3-941a-4cd5-874d-6df081fbef6c
     - 7a95de0a-81af-48a2-bcad-d9b274375904: 009d87fc-03ef-4015-9fa1-6fcd8427ee8b
     - 7aa4d57a-2e5f-4e5e-8f29-f63764e330e5: 16cb4598-e88e-4fdc-be1d-8093e807ad23
-    - 7dbf9b86-e93b-4622-82a3-2a5154c00072: d8917794-79d7-42fd-aeae-3641f091a144
     - 7e6fa5eb-6c85-45dc-bf49-eea37592dd33: f167647c-d4a5-4308-a40f-7fd928469c13
     - 7e9c26a4-6eba-4717-9ca3-adffe67ffb1a: c1d03a78-e672-4437-9295-a60de42b73c4
     - 87da4311-ea4e-4cf1-9c18-c0c322e2be06: 5b3efb00-868a-46a5-89cf-bcecbe483e98
@@ -1171,7 +1138,6 @@
     - 9cc3954e-e9ff-4a22-9b55-ffed5507e084: 3e7b76a6-e1ba-4824-b8f4-02c2322feb8f
     - 9d4556c9-005e-4f81-8e50-f6ff9005d518: 709f3338-715e-442b-8f88-89d7e305bcd2
     - 9fa61e4d-5c24-407b-ac25-a58bdbca18be: 0a50bf6c-a9d4-42dc-8c13-6fed880cbd40
-    - a3337abd-c8da-4cba-9693-549a280f6881: 7e87dc9f-e47f-4eb9-aa44-1c07db689aa8
     - a65e50ba-fcf0-4a87-8f1d-a1807b37ef8b: 48d039ce-a6e6-4618-a041-ab076d1e1943
     - a995b64a-7924-495a-894f-20fd0a44c93d: 1e08ba8b-e615-40f4-801e-c493b24a0841
     - ac9e14db-0ec6-4291-8dbd-cbd1c4c15a5d: 03dca3bd-51f9-4c71-a46f-bacd9a9d310e
@@ -1200,33 +1166,12 @@
     - e89686a0-458b-4049-904f-fef4a0912d38: 3f93c174-2470-446a-9917-15e33ec0ef3a
     - ec251902-5cda-4928-893c-b249672e3452: dd461782-e18f-431d-b844-a6525ceca40d
     - ee78cf6a-0974-4098-9c16-903fba49d7c0: b50cc6f2-9faf-4fb7-bb11-0fab19dc797a
-    - eebe8a75-7663-440c-8541-c5da29b3e796: a50eb453-63cb-4b3f-8aac-c17d214a15c3
     - ef2bf244-bcd1-4d79-86b3-b3fdc226a285: baa4864a-6b70-4220-bf0e-aeab1a687ea9
     - ef44ec45-d303-44af-bc9b-70c37c7564b3: 89a6ac69-6b40-4b6b-84bb-5022ded193de
     - f86290fc-8b1b-4792-affe-1dcf10b3b528: deda988b-55e9-4e44-b977-70a346f6d6a7
     - fcfd371e-8ec0-4b35-a36d-abeaeb315d62: 472ed534-cebd-4e49-b317-80783fdd89f3
     - fdab0d83-d17e-490e-afa3-f288ae3a8277: c29231f3-6c5c-4d13-a0da-9a09d37055a4
   SourceState: !<own> 8ba8fef7-e4f2-4e65-ac54-6a164a39a869
-- !<RenderMeshVisual/a50eb453-63cb-4b3f-8aac-c17d214a15c3>
-  PrefabRemaps:
-    []
-  Name: cicada_shadow_CICADA_SHADOW_0
-  Enabled: true
-  RenderOrder: 0
-  StretchMode: Stretch
-  VerticalAlignment: Center
-  HorizontalAlignment: Center
-  MeshShadowMode: None
-  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-  ShadowDensity: 1.000000
-  Materials:
-    - !<reference> 8b231601-5b8e-4e0e-881d-db1b648dc46f
-  Mesh: !<reference> 21ec1747-8cea-4551-8a2e-a428b9cfcf4a
-  Skin: !<reference> 00000000-0000-0000-0000-000000000000
-  BlendShapesEnabled: true
-  BlendNormals: false
-  BlendShapes:
-    {}
 - !<SceneObject/a8dc6de0-a742-4ea9-a636-a2ef5b448a5e>
   PrefabRemaps:
     []
@@ -1525,21 +1470,6 @@
     hasSegmentScaleCompensation: false
   Children:
     - !<own> 63d398de-2376-40f4-bf6a-cc353792828b
-  Components:
-    []
-- !<SceneObject/d8917794-79d7-42fd-aeae-3641f091a144>
-  PrefabRemaps:
-    []
-  Name: cicada_shadow
-  Enabled: true
-  Layers: 1
-  LocalTransform:
-    position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    rotation: {x: 0.000000, y: -90.000000, z: 0.000000}
-    scale: {x: 0.025400, y: 0.025400, z: 0.025400}
-    hasSegmentScaleCompensation: false
-  Children:
-    - !<own> 7e87dc9f-e47f-4eb9-aa44-1c07db689aa8
   Components:
     []
 - !<SceneObject/dd461782-e18f-431d-b844-a6525ceca40d>

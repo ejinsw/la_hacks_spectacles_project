@@ -1,0 +1,1788 @@
+- !<AssetImportMetadata/a1d6bc52-aab6-4c5c-bee0-785820cb9652>
+  ImportedAssetIds:
+    .hidden/CICADA_CHROME: !<reference> 006126a8-83c5-47c9-a76f-2b40bb8e1952
+    04f1bd812e9935b6: !<reference> e0bfc4b6-a9d2-4bba-90e3-86001d3e2cab
+    0d09d90aebdc9a25: !<reference> 757463c5-2487-4f99-9f92-22fa8a7bb735
+    0ee3ee8bf070ecd4: !<reference> b906ddb3-6aba-4dfa-a41e-eacd7eada9a8
+    0f52fd04686ae9c1: !<reference> a5d925b2-d03f-44f2-9e1b-0ca119b39de0
+    11a71a7ea154d18d: !<reference> 482e5d8d-522b-4400-bc3a-69a2ef5264d8
+    12f32085c6f08de5: !<reference> 405897f6-abf4-4783-b181-caf64e57d8bd
+    142af9bf5fb5ff63: !<reference> bcb17c2f-3498-4529-a1c1-4c0c2bb52e72
+    14645d7866e1ba20: !<reference> a4128c7e-467f-4234-abab-f25a3c32d946
+    158efdd0e31cd0cf: !<reference> 59b29e43-8d3d-4230-aed6-d3bdc72f2a01
+    19361d6c0a6c3248: !<reference> 9add32db-bbae-48d4-a559-c2a3040492f4
+    1af6deaf4c63ef38: !<reference> dc2e5fab-99f3-40f3-9582-6dc8f14547eb
+    1c38be973e4a5c0c: !<reference> bdedcd5b-3c0c-4a85-a97f-4b0f90a7c644
+    1f2e376ca8d63364: !<reference> f486455f-acdb-497e-ae44-3fa12b353f1a
+    23d010649e3d8f5f: !<reference> 3b554f0e-e43c-4cc8-b669-bf896549ebc8
+    24bb901716ed18f9: !<reference> 8229746e-2557-47e3-a454-a511fc8c3260
+    2e29bb589a485563: !<reference> 353250fe-965c-41e6-a12f-deff6681d2dc
+    329e7797cc554598: !<reference> 2a95251f-23a9-4df3-bcd6-0aa8900dce8f
+    32b38c0b2b78fe06: !<reference> a69bf64c-4768-4803-86b9-fcff81b1e4e1
+    399723e476fcc8d8: !<reference> b70265a5-0e18-4db8-92e5-f1cadb762d3b
+    3ad35ba0e69b2d16: !<reference> 929b9da9-b52f-41ae-8e61-3fdafdf16879
+    431f071bf8413cbc: !<reference> c8a65392-e4e8-45f8-ae7d-a43b3b865031
+    43d969dc57fa4312: !<reference> 54a7769d-e0b6-42c1-83c6-9132f84b98df
+    4a3e924fad0e2f27: !<reference> 5a2f5545-bbc8-4c74-8187-4a493fde5e89
+    4acb518f0604aab1: !<reference> aefccc98-7915-4e00-a461-0eee4b20893d
+    5418589cc566b035: !<reference> 587e9710-dbe1-4d92-9a78-fb3c6fe1ddb6
+    5456cd091e7655cc: !<reference> 5d02be39-a59e-4512-9385-fe6ff6b63adf
+    5976822aafb31059: !<reference> 7c32fa46-600d-4e13-89c1-1390f7de1df4
+    5e400e05d7eebce3: !<reference> ad2bfc83-ed1e-4cf9-b4fb-9d546b87e659
+    66780cf3a4dcb2b8: !<reference> 11ee2679-cddf-4f42-8ce4-5f097ccf4075
+    6bfabd326ec6838a: !<reference> a7826c51-fc9c-4106-b173-ab2e4004f59a
+    6ccecc37e8b2c7e6: !<reference> 38ee7876-e558-477c-be11-1beb7a4e724a
+    6e9cdee669f187e5: !<reference> 1625ad5b-55c1-4bad-a857-79c20aaeb2fc
+    70104d6800d92cdf: !<reference> 8a0fbe9c-be88-4f51-8d58-ec67692250ce
+    727e8a9aba145a42: !<reference> 732dc646-f6c0-4e2d-9356-d6cf00b48a35
+    7294eefaf156e4bc: !<reference> 7458f38c-1618-42ce-b804-b66f3137ad5e
+    76b159b72591eb1b: !<reference> 13c73f54-5b9f-40c1-b0da-40c66b6ab34f
+    7f52159321ad6960: !<reference> 60eefbac-3759-4d06-b42d-4ebd7bba5491
+    8330e9a1d6eaa3f1: !<reference> cd4f59c3-24f6-4a16-93ba-9026eba2b121
+    85765cd7a8bf1dac: !<reference> fe6be542-477f-4ae1-a71a-559f74c7ceb0
+    8963259f1fab0024: !<reference> 894a423c-0b29-4e86-9325-9349396a55a8
+    8a72d62950e1f44f: !<reference> aac84b01-417c-42ff-b415-396bd3c61d06
+    8bd8ed96c8d08530: !<reference> cea2fca6-18b0-4b23-afe4-29726e1174d5
+    8bda4b8f32273e81: !<reference> 20ecf10f-42bb-45d8-b84c-0cc3512746ff
+    8c035a345f766213: !<reference> 74024fa6-0259-4927-bc19-891f92cff2c5
+    8cc004ff93d4b7dd: !<reference> 08e9c656-872e-44e6-9362-9e65989a309a
+    91abad187e177777: !<reference> 8e654962-4243-4984-af82-3a64820cfd52
+    91fc78bee02aaf9d: !<reference> 4ace72e2-1f21-471a-9cac-855392ea02ee
+    922889979f3993a9: !<reference> cf348739-f1d9-4f23-913e-bc7ce121a89f
+    92c45e2cff89a6ce: !<reference> 181e633d-11ac-4067-8faa-706055c37e31
+    934eb27f1bc55473: !<reference> f1cd202d-6d23-476c-8bcf-443cfcb19b9c
+    Animations/Take 001: !<reference> 589408bd-84ea-48ff-9e55-a2158edc0edc
+    Materials/CICADA_CHROME: !<reference> 53fac067-2c6e-4427-be5f-23d17c93e24c
+    Materials/CICADA_CHROME|CICADA_CHROME|GraphPassInfo: !<reference> 9daa2c34-f34b-4fd2-afec-4b924c4fcb3e
+    Materials/CICADA_DEFAULT: !<reference> b9ef6e67-8558-4e82-8a17-ca6a38bd0cd9
+    Materials/CICADA_DEFAULT|CICADA_DEFAULT|GraphPassInfo: !<reference> 21a4e00a-f211-4ab8-8888-80914413b08f
+    Materials/CICADA_GLASS: !<reference> 3770e326-1d2b-4e9d-b9e3-059acd803019
+    Materials/CICADA_GLASS|CICADA_GLASS|GraphPassInfo: !<reference> 714aac1a-f195-40e6-86a4-474e9280dc81
+    Materials/CICADA_LAMPS: !<reference> 4953caa9-fcd5-4e29-88f5-8d17af441ef4
+    Materials/CICADA_LAMPS|CICADA_LAMPS|GraphPassInfo: !<reference> 316828a2-5f2a-4936-801f-05bd0248d001
+    Materials/CICADA_PAINT: !<reference> 2a8db4c6-347e-4b8e-b2c1-a2e19fc94ab7
+    Materials/CICADA_PAINT|CICADA_PAINT|GraphPassInfo: !<reference> 2daf3978-4c47-46e2-a073-9f0eea2d8b9c
+    Materials/CICADA_SHADOW: !<reference> 8b231601-5b8e-4e0e-881d-db1b648dc46f
+    Materials/CICADA_SHADOW|CICADA_SHADOW|GraphPassInfo: !<reference> 2fe57acd-a3a1-452d-91e3-079157c4767d
+    Meshes/BODY_CICADA_DEFAULT_0: !<reference> d07317cb-1436-42ae-8c3b-15cf263058ad
+    Meshes/CICADA_CHROME_CICADA_CHROME_0: !<reference> 187acce5-60aa-4287-9bf5-036a6f9c8433
+    Meshes/CICADA_PAINT_CICADA_PAINT_0: !<reference> fe155a86-a76c-4b2b-978f-73f0e057b9b3
+    Meshes/DOOR_L_CHROME_CICADA_DEFAULT_0: !<reference> d4153115-9623-4cc3-a36c-10482dd09f9d
+    Meshes/DOOR_L_MATTE_CICADA_DEFAULT_0: !<reference> 4f18c9eb-bcb4-41c4-b6a8-9a121eb75716
+    Meshes/DOOR_R_CHROME_CICADA_DEFAULT_0: !<reference> e251e13b-673c-4357-befc-14c301c7a933
+    Meshes/DOOR_R_MATTE_CICADA_DEFAULT_0: !<reference> 77e05428-7e6b-4086-90ec-004f347c8d74
+    Meshes/LEFT_DOOR_CICADA_PAINT_0: !<reference> 59037fb4-80f1-4698-8d91-90397a71ba4a
+    Meshes/RIGHT_DOOR_CICADA_PAINT_0: !<reference> e86107b7-2c1b-40b2-b7d9-d87deeb6b734
+    Meshes/cicada_shadow_CICADA_SHADOW_0: !<reference> 21ec1747-8cea-4551-8a2e-a428b9cfcf4a
+    Meshes/front_lamp_glass_CICADA_LAMPS_0: !<reference> 5d20fa49-6a75-4152-8f6c-d8697fc951af
+    Meshes/glass_CICADA_GLASS_0: !<reference> b8c25661-a7a5-4be1-b069-b0f0a2c9a2a5
+    Meshes/inside_CICADA_DEFAULT_0: !<reference> 9487838f-5f0b-4afe-ba7c-bcc0576dbf72
+    Meshes/left_door_glass_CICADA_GLASS_0: !<reference> dcf09749-70b8-47c7-ac2a-edbf6ef93296
+    Meshes/left_front_wheel_CICADA_DEFAULT_0: !<reference> eb9bfddc-20a6-409e-9661-9d9de3f4d03b
+    Meshes/left_rear_wheel_CICADA_DEFAULT_0: !<reference> 226e4921-7d9f-4624-b8d3-21c14a0dac19
+    Meshes/rear_lamp_glass_CICADA_LAMPS_0: !<reference> 35b1bf06-4df0-44c9-86b9-2f779a8c604a
+    Meshes/right_door_glass_CICADA_GLASS_0: !<reference> f7e3758e-6b18-440b-b11f-2e5f1e392626
+    Meshes/right_front_wheel_CICADA_DEFAULT_0: !<reference> a1cf03a7-e771-4787-bbd4-2845ad2d7cf7
+    Meshes/right_rear_wheel_CICADA_DEFAULT_0: !<reference> 7265628f-e6bf-4a4e-9cd1-a2149f0b8fcb
+    Meshes/steering_wheel_CICADA_DEFAULT_0: !<reference> e8b57e47-5f14-404a-889e-be103bc3f108
+    Scene: !<reference> 10e076bc-3a0b-44ff-b272-857a4173354f
+    Textures/CICADA_GLASS_baseColor: !<reference> 1862f209-be9e-4912-8c85-a7f17a8d7126
+    Textures/CICADA_GLASS_metallicRoughness: !<reference> 042f89a9-08b0-4e9b-8602-a66253794fe4
+    Textures/CICADA_PAINT_baseColor: !<reference> 7be90ef1-85cd-48a4-90b3-2941416c2583
+    Textures/CICADA_PAINT_metallicRoughness: !<reference> 0288f5d0-5b16-4384-9bca-ebef52d5bafd
+    Textures/CICADA_SHADOW_baseColor: !<reference> 35c893e4-4968-4d46-b676-c7323642a0cb
+    a2ac0344d38fe6ee: !<reference> 116b17e4-9d5c-4a62-94e3-bfd89bbbd95f
+    a918f9d60b3fbea4: !<reference> fd26d903-5fdc-4cd9-bafe-3d15373f39f8
+    aafdebf2ed343160: !<reference> 6ccc71bf-09a9-4a77-b4b9-ea5153350366
+    aedcbe430b28586b: !<reference> b948cabe-5a49-4e19-b646-687454768f6c
+    b11f3d7ff99035bc: !<reference> 3955d549-3b2c-46a2-b95d-02bae5fb7262
+    b1bbb310dfda7512: !<reference> 362e31b1-aba5-41b3-9b9e-8ff03205c5c4
+    b26dcd0b4e5cf1db: !<reference> eb72f9af-230e-4194-b3af-0a1dbc3e66e9
+    b5bda05d1143a793: !<reference> ccdcacce-6da6-4559-a921-4ab4912c38ff
+    b6d00cbb3084723e: !<reference> 9af6408d-bab7-477a-afad-534d65a39537
+    bd58d7a3b0f4c2d7: !<reference> d017b2d1-b0da-4097-9ddc-863299beef25
+    bdc5e76d0673cae8: !<reference> 92cd0dda-c742-47b1-827d-7b9bc05a8826
+    c16d98dc71db016c: !<reference> bf465e49-7e1a-4b39-ab78-da57706de6a6
+    c6cf8769961c1d15: !<reference> ac88a74d-3985-4e5d-b002-d431ac2941bf
+    c8c143fd49c3a0db: !<reference> 2f828bd3-9e40-4c82-8935-977f811e1536
+    c8f54b77dc1ae9f7: !<reference> cbac524e-ac29-4a67-8c46-d5705af027b6
+    cb27a6e7fadf2b2e: !<reference> f3e8386e-ad9c-4915-a09f-fb9e3c4bd1bc
+    cb4f434231794a02: !<reference> c4d2573f-6fd6-4028-9918-36620b361122
+    cdba433be1356add: !<reference> 2265ec79-4a56-4cba-907f-37beecf5e4e7
+    ce05e14d53d9a336: !<reference> 16239d49-a278-41f3-a9e7-e3e75d3cb4ab
+    ce27b61cd07c9d73: !<reference> 4d484eb9-4e3c-4db9-9959-f6711768f4eb
+    ce4c34bac7824a2c: !<reference> b35a1fa8-02fc-4112-b5cb-84b6a7c45598
+    cfa3abfb24e7c96d: !<reference> 4c5e999f-094b-4742-b621-b60f38088ad4
+    d2d20ce52e4a1c46: !<reference> 7bc82fdd-88cb-4c1f-8655-4696de575a43
+    d5213e8abffb6fd2: !<reference> cc9664c0-dc6b-4217-9b37-d1dd413e486d
+    dcc71c5b5e1123b9: !<reference> 7f2e0c4c-44c7-411f-bfc4-ba491460169a
+    e38abff6173eebfd: !<reference> 5a1c0de8-7349-4532-8410-98335da76073
+    e4579a8a5c655ba0: !<reference> 12c84875-0ecd-4ded-8f2c-0a53aadaac2a
+    e903986d4546c232: !<reference> 08e2c025-eed2-4fc5-8613-8b008d7c3e71
+    e9fbb5ac0cd91fc5: !<reference> 70ba3086-78aa-4fe1-9dc3-b943f35711ea
+    eb61ebe5c0adf224: !<reference> 6a503e1f-309e-400e-b5a7-c0614c806806
+    ec36ee2427403613: !<reference> aae31a23-07ea-4a30-83b4-a2f65315b7f9
+    f4d57897a8715cbc: !<reference> d2d4f3cd-53f9-4324-8e06-b6cb4ea1297d
+    f4e51cc5404570e0: !<reference> 8542a078-8845-4c68-b250-9d39c5492704
+    f615ec322dc52983: !<reference> a4f6e2a9-a349-4113-b45c-ab27d4169c5a
+    f6e98465451821c6: !<reference> 18e62c6f-3b82-4fc5-8cbb-1250571a25cf
+    f76cece4f0963301: !<reference> 9f579fba-cb76-41e1-a1fb-a5dd73a36065
+    f7ff717d20ec3518: !<reference> 43780d8b-bcae-42e3-900f-161d817c2368
+    f86a532783d68d3a: !<reference> 35b7d2c3-897f-4fb2-a7aa-2f8d42e6ffdc
+    fae333d325987535: !<reference> 2b669c73-c2b9-4ab6-bd3a-2cc56f9502f7
+    fb56a9e098109acf: !<reference> f3e64375-fe09-4d2f-8ef0-08c1b1548759
+    fb922832be3b9433: !<reference> be59d724-a614-4e7b-92e4-a6089b72a8db
+    ff7936aad4ab157c: !<reference> f1dedf38-cdba-4714-bbce-a3d746489462
+  ImporterName: GltfImporter
+  PrimaryAsset: !<reference> 10e076bc-3a0b-44ff-b272-857a4173354f
+  PackageType: LegacyPackage
+  PackagePolicy: CanBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> a30c04d8-098e-4e7d-8d39-e965b28dff05
+  DependentFiles:
+    - scene.bin
+    - textures/CICADA_GLASS_baseColor.png
+    - textures/CICADA_GLASS_metallicRoughness.png
+    - textures/CICADA_PAINT_baseColor.png
+    - textures/CICADA_PAINT_metallicRoughness.png
+    - textures/CICADA_SHADOW_baseColor.png
+  ImporterSettings: !<GltfImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBased
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangents: true
+    ImportMorphTargetAnimation: true
+    ConvertMetersToCentimeters: true
+    RegenerateTangents: false
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<SingleCompressionSettings>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+      Performance Compression: !<SingleCompressionSettings>
+        CompressorName: Performance
+        CompressionSettings: !<TextureCompressionSettings>
+          Level: Medium
+    ExtensionMappings:
+      mesh: None Compression
+      png: Performance Compression
+    Overrides:
+      {}
+- !<RenderMeshVisual/010b96b0-9217-41e6-8427-ae0164df281e>
+  PrefabRemaps:
+    []
+  Name: inside_CICADA_DEFAULT_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> b9ef6e67-8558-4e82-8a17-ca6a38bd0cd9
+  Mesh: !<reference> 9487838f-5f0b-4afe-ba7c-bcc0576dbf72
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/015e0c6c-d205-41f9-a01a-7c80ae66b119>
+  PrefabRemaps:
+    []
+  Name: rear_lamp_glass_CICADA_LAMPS_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 0cfe7f50-a652-4969-b604-945218ef5fe8
+- !<SceneObject/025e36f6-cd88-49ac-8614-9ce3ab93dc87>
+  PrefabRemaps:
+    []
+  Name: DOOR_L_CHROME_CICADA_DEFAULT_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 07cc762f-4fda-41ff-a50c-69ed559420b2
+- !<SceneObject/03a5067a-93be-40f4-a872-8444ee17e637>
+  PrefabRemaps:
+    []
+  Name: BODY_CICADA_DEFAULT_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 7d22d4e8-113c-442e-8289-83372773fcc1
+- !<RenderMeshVisual/07cc762f-4fda-41ff-a50c-69ed559420b2>
+  PrefabRemaps:
+    []
+  Name: DOOR_L_CHROME_CICADA_DEFAULT_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> b9ef6e67-8558-4e82-8a17-ca6a38bd0cd9
+  Mesh: !<reference> d4153115-9623-4cc3-a36c-10482dd09f9d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/0a86d628-f788-4b8a-a8ad-2c4a73a7ec3d>
+  PrefabRemaps:
+    []
+  Name: left_door_glass
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -8.968573, y: 13.089397, z: -19.181732}
+    rotation: {x: -0.000000, y: 0.000000, z: -0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 8047a68a-7bd0-4008-b034-aacb1e99396b
+  Components:
+    []
+- !<RenderMeshVisual/0cfe7f50-a652-4969-b604-945218ef5fe8>
+  PrefabRemaps:
+    []
+  Name: rear_lamp_glass_CICADA_LAMPS_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4953caa9-fcd5-4e29-88f5-8d17af441ef4
+  Mesh: !<reference> 35b1bf06-4df0-44c9-86b9-2f779a8c604a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/18995ebd-3d34-4827-976e-1a6721652336>
+  PrefabRemaps:
+    []
+  Name: Object_11
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -34.563465, y: -27.100063, z: -31.486540}
+    rotation: {x: -90.000000, y: 90.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 80095c6c-f4b4-445e-89b1-2c9c54a614ee
+  Components:
+    []
+- !<SceneObject/1c359b64-b241-48bc-a68a-e75b213feb05>
+  PrefabRemaps:
+    []
+  Name: Object_8
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: -90.000000, y: 90.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 03a5067a-93be-40f4-a872-8444ee17e637
+  Components:
+    []
+- !<SceneObject/2257d60c-de4e-4aea-a7d8-57cb8bf01d36>
+  PrefabRemaps:
+    []
+  Name: Object_17
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -34.563465, y: -27.100063, z: -31.486540}
+    rotation: {x: -90.000000, y: 90.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 025e36f6-cd88-49ac-8614-9ce3ab93dc87
+  Components:
+    []
+- !<SceneObject/232adf4e-0733-422b-a56f-7b304243b8f1>
+  PrefabRemaps:
+    []
+  Name: Object_44
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -28.472542, y: -11.433288, z: -50.450031}
+    rotation: {x: -90.000000, y: 90.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> bcc54b80-0a84-40ed-a7de-41675cf8c856
+  Components:
+    []
+- !<SceneObject/235251d8-9bfd-4af4-8cbc-93c2743f3d35>
+  PrefabRemaps:
+    []
+  Name: Object_38
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 28.418385, y: -11.433293, z: 33.231853}
+    rotation: {x: -90.000000, y: 90.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 4015cf6b-fc87-48dc-97f4-419c4e47bdb3
+  Components:
+    []
+- !<SceneObject/2705da7c-d775-4085-b4ae-dd7290871a0f>
+  PrefabRemaps:
+    []
+  Name: Object_26
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 25.594889, y: -40.189457, z: -12.304812}
+    rotation: {x: -90.000000, y: 90.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 47c7f9a4-d970-4b5c-87c4-1cafc739f840
+  Components:
+    []
+- !<SceneObject/2d98844c-4aab-40f3-b158-71c3eb475d51>
+  PrefabRemaps:
+    []
+  Name: Object_41
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -28.472530, y: -11.433293, z: 33.231861}
+    rotation: {x: -90.000000, y: 90.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 666d2c3f-c4f1-4823-894b-519853a8867e
+  Components:
+    []
+- !<SceneObject/31b77879-cd2f-426a-820a-cfd4b3979292>
+  PrefabRemaps:
+    []
+  Name: DOOR_R_CHROME
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 56c67ef7-af08-4726-82e1-594cdbbfd9b0
+  Components:
+    []
+- !<SceneObject/33607036-6c2b-4769-9f87-cb8aa8fc65f1>
+  PrefabRemaps:
+    []
+  Name: CICADA_CHROME
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 47670331-ae0a-4886-b5b9-4cedc18e5caf
+  Components:
+    []
+- !<SceneObject/37fec6b3-dc63-441c-9015-0adefd0086e1>
+  PrefabRemaps:
+    []
+  Name: right_rear_wheel
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -28.418385, y: 11.433292, z: -33.231857}
+    rotation: {x: -0.000000, y: -0.000000, z: -0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 235251d8-9bfd-4af4-8cbc-93c2743f3d35
+  Components:
+    []
+- !<SceneObject/3b34a495-7653-48c5-a42f-c0c9c8b95806>
+  PrefabRemaps:
+    []
+  Name: glass_CICADA_GLASS_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> f7657cb4-8de3-4c18-afcb-d1cc74de925f
+- !<SceneObject/3ddb8b22-4663-46f8-9d38-6d95f3a9bc47>
+  PrefabRemaps:
+    []
+  Name: Object_5
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: -90.000000, y: 90.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> feb7cea2-bfb9-48b6-9031-640b8350dc8a
+  Components:
+    []
+- !<SceneObject/4015cf6b-fc87-48dc-97f4-419c4e47bdb3>
+  PrefabRemaps:
+    []
+  Name: right_rear_wheel_CICADA_DEFAULT_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 5dbbaca1-fd7d-4c80-80a8-39ac1704b6d6
+- !<RenderMeshVisual/407a9da2-1c03-4920-aa12-eb0ab3fc38d8>
+  PrefabRemaps:
+    []
+  Name: right_front_wheel_CICADA_DEFAULT_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> b9ef6e67-8558-4e82-8a17-ca6a38bd0cd9
+  Mesh: !<reference> a1cf03a7-e771-4787-bbd4-2845ad2d7cf7
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/46ee7203-4a9b-4077-ad98-b53f5b993eeb>
+  PrefabRemaps:
+    []
+  Name: front_lamp_glass
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> b61ea09f-b73b-4e60-95e7-589401af54ad
+  Components:
+    []
+- !<SceneObject/47670331-ae0a-4886-b5b9-4cedc18e5caf>
+  PrefabRemaps:
+    []
+  Name: Object_62
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: -90.000000, y: 90.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> d258028b-35fd-406b-b16b-561cf4a7f269
+  Components:
+    []
+- !<SceneObject/47c7f9a4-d970-4b5c-87c4-1cafc739f840>
+  PrefabRemaps:
+    []
+  Name: right_door_glass_CICADA_GLASS_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> e27d7833-cd32-4630-9710-0ceeea458e28
+- !<RenderMeshVisual/4c3d9138-9e5a-4e11-866c-f1aba7e47dee>
+  PrefabRemaps:
+    []
+  Name: LEFT_DOOR_CICADA_PAINT_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 2a8db4c6-347e-4b8e-b2c1-a2e19fc94ab7
+  Mesh: !<reference> 59037fb4-80f1-4698-8d91-90397a71ba4a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/4d662ac2-b0cc-4cac-8855-6406cd090f9c>
+  PrefabRemaps:
+    []
+  Name: DOOR_L_MATTE_CICADA_DEFAULT_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> b9ef6e67-8558-4e82-8a17-ca6a38bd0cd9
+  Mesh: !<reference> 4f18c9eb-bcb4-41c4-b6a8-9a121eb75716
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/51c322d8-d84c-4f6f-ae97-454b5e7d1987>
+  PrefabRemaps:
+    []
+  Name: cicada_shadow
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -90.000000, z: 0.000000}
+    scale: {x: 0.025400, y: 0.025400, z: 0.025400}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 52a41916-49fa-495b-9c29-fb9d75a8bef1
+  Components:
+    []
+- !<SceneObject/52a41916-49fa-495b-9c29-fb9d75a8bef1>
+  PrefabRemaps:
+    []
+  Name: Object_65
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: -90.000000, y: 90.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> e59648ed-84ad-49a1-bb8a-6ebaae19aa2c
+  Components:
+    []
+- !<SceneObject/56c67ef7-af08-4726-82e1-594cdbbfd9b0>
+  PrefabRemaps:
+    []
+  Name: Object_29
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 34.534714, y: -27.100067, z: -31.486540}
+    rotation: {x: -90.000000, y: 90.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> d319fb4c-7c12-48fa-88f3-6b88cf8236f5
+  Components:
+    []
+- !<SceneObject/571c7fb4-98e1-4bac-8008-bcc5883f4fad>
+  PrefabRemaps:
+    []
+  Name: DOOR_L_MATTE_CICADA_DEFAULT_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 4d662ac2-b0cc-4cac-8855-6406cd090f9c
+- !<SceneObject/5a1c67c4-abec-4c58-8e99-17eb8c9f2447>
+  PrefabRemaps:
+    []
+  Name: DOOR_R_MATTE_CICADA_DEFAULT_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 5ccb437f-55b3-4ea9-80b0-197eb3c373a3
+- !<SceneObject/5a47fa0c-3db3-4972-a983-948490a2b7f6>
+  PrefabRemaps:
+    []
+  Name: left_front_wheel
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 28.472538, y: 11.433289, z: 50.450031}
+    rotation: {x: -0.000000, y: -0.000000, z: -0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 232adf4e-0733-422b-a56f-7b304243b8f1
+  Components:
+    []
+- !<RenderMeshVisual/5ccb437f-55b3-4ea9-80b0-197eb3c373a3>
+  PrefabRemaps:
+    []
+  Name: DOOR_R_MATTE_CICADA_DEFAULT_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> b9ef6e67-8558-4e82-8a17-ca6a38bd0cd9
+  Mesh: !<reference> 77e05428-7e6b-4086-90ec-004f347c8d74
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/5dbbaca1-fd7d-4c80-80a8-39ac1704b6d6>
+  PrefabRemaps:
+    []
+  Name: right_rear_wheel_CICADA_DEFAULT_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> b9ef6e67-8558-4e82-8a17-ca6a38bd0cd9
+  Mesh: !<reference> 7265628f-e6bf-4a4e-9cd1-a2149f0b8fcb
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/5fb8d401-c559-4263-851b-47e1790e364e>
+  PrefabRemaps:
+    []
+  Name: RIGHT_DOOR_CICADA_PAINT_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 2a8db4c6-347e-4b8e-b2c1-a2e19fc94ab7
+  Mesh: !<reference> e86107b7-2c1b-40b2-b7d9-d87deeb6b734
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/638ba219-240a-466d-8bac-412dc314abd7>
+  PrefabRemaps:
+    []
+  Name: RIGHT_DOOR
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -34.534718, y: 27.100065, z: 31.486542}
+    rotation: {x: -0.000000, y: -0.000000, z: -0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 77ebd569-2c0a-4d0b-a70f-e2f5ab15faee
+    - !<own> a56dd90f-eacd-44bc-91a9-3303e7da978a
+    - !<own> 31b77879-cd2f-426a-820a-cfd4b3979292
+    - !<own> d3754afc-7c57-4967-bdab-2f43c4cd647b
+  Components:
+    []
+- !<SceneObject/666d2c3f-c4f1-4823-894b-519853a8867e>
+  PrefabRemaps:
+    []
+  Name: left_rear_wheel_CICADA_DEFAULT_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 7e98c451-77f1-41ae-98c6-309ac43ea31f
+- !<AnimationPlayer/6ac730e5-eaf2-4123-b60d-66f184185e45>
+  PrefabRemaps:
+    []
+  Name: component_21
+  Enabled: true
+  Autoplay: true
+  ClipRangeType: Frames
+  AnimationClips:
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 589408bd-84ea-48ff-9e55-a2158edc0edc
+      Name: Take 001
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 600.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+- !<SceneObject/6ba70721-ba1a-4270-bf83-ddfd018c186b>
+  PrefabRemaps:
+    []
+  Name: RootNode
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 91172a2c-e31f-4b9e-b1c0-e1d3c53d10f2
+    - !<own> 51c322d8-d84c-4f6f-ae97-454b5e7d1987
+  Components:
+    []
+- !<SceneObject/717fce60-b563-4c0b-920a-9ff8202ddb5b>
+  PrefabRemaps:
+    []
+  Name: glass
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> a9e2553b-f00d-4f27-bd3e-3ee5ff6ecca8
+  Components:
+    []
+- !<SceneObject/74093c03-e78a-4480-8848-6a2d67f7f8ab>
+  PrefabRemaps:
+    []
+  Name: left_door_glass_CICADA_GLASS_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b45053c9-d3b4-4a1b-8dd3-e4bf0f426ca9
+- !<SceneObject/75cfab8d-dd95-48a8-8a50-06bf0b749c47>
+  PrefabRemaps:
+    []
+  Name: DOOR_L_CHROME
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 2257d60c-de4e-4aea-a7d8-57cb8bf01d36
+  Components:
+    []
+- !<SceneObject/76646ede-fa66-46c2-b679-7f1e464b3653>
+  PrefabRemaps:
+    []
+  Name: right_front_wheel_CICADA_DEFAULT_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 407a9da2-1c03-4920-aa12-eb0ab3fc38d8
+- !<SceneObject/77ebd569-2c0a-4d0b-a70f-e2f5ab15faee>
+  PrefabRemaps:
+    []
+  Name: Object_23
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 34.534714, y: -27.100067, z: -31.486540}
+    rotation: {x: -90.000000, y: 90.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> b78d50c7-20c3-4570-a46a-55ed649bdf5c
+  Components:
+    []
+- !<RenderMeshVisual/7869338b-18b1-47a7-9396-07cafbf54c9b>
+  PrefabRemaps:
+    []
+  Name: front_lamp_glass_CICADA_LAMPS_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4953caa9-fcd5-4e29-88f5-8d17af441ef4
+  Mesh: !<reference> 5d20fa49-6a75-4152-8f6c-d8697fc951af
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/7b9f0c20-d508-41aa-87d5-2d74eb1693bc>
+  PrefabRemaps:
+    []
+  Name: Sketchfab_model
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: -90.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 0.503018, y: 0.503018, z: 0.503018}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> ac3740e7-d949-407d-888d-34629f5346e6
+  Components:
+    []
+- !<RenderMeshVisual/7c5b145e-778a-4305-bac4-f3954432782f>
+  PrefabRemaps:
+    []
+  Name: left_front_wheel_CICADA_DEFAULT_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> b9ef6e67-8558-4e82-8a17-ca6a38bd0cd9
+  Mesh: !<reference> eb9bfddc-20a6-409e-9661-9d9de3f4d03b
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/7d22d4e8-113c-442e-8289-83372773fcc1>
+  PrefabRemaps:
+    []
+  Name: BODY_CICADA_DEFAULT_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> b9ef6e67-8558-4e82-8a17-ca6a38bd0cd9
+  Mesh: !<reference> d07317cb-1436-42ae-8c3b-15cf263058ad
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/7e98c451-77f1-41ae-98c6-309ac43ea31f>
+  PrefabRemaps:
+    []
+  Name: left_rear_wheel_CICADA_DEFAULT_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> b9ef6e67-8558-4e82-8a17-ca6a38bd0cd9
+  Mesh: !<reference> 226e4921-7d9f-4624-b8d3-21c14a0dac19
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/80095c6c-f4b4-445e-89b1-2c9c54a614ee>
+  PrefabRemaps:
+    []
+  Name: LEFT_DOOR_CICADA_PAINT_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 4c3d9138-9e5a-4e11-866c-f1aba7e47dee
+- !<SceneObject/8047a68a-7bd0-4008-b034-aacb1e99396b>
+  PrefabRemaps:
+    []
+  Name: Object_14
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -25.594889, y: -40.189461, z: -12.304811}
+    rotation: {x: -90.000000, y: 90.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 74093c03-e78a-4480-8848-6a2d67f7f8ab
+  Components:
+    []
+- !<SceneObject/8e716352-dde3-4f22-9463-f57563795efb>
+  PrefabRemaps:
+    []
+  Name: Object_53
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -15.557321, y: 44.248035, z: -0.877460}
+    rotation: {x: 0.000036, y: -55.000015, z: 89.999977}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> e6dce9ad-310e-4ebc-8509-c2126b7c48b5
+  Components:
+    []
+- !<SceneObject/91172a2c-e31f-4b9e-b1c0-e1d3c53d10f2>
+  PrefabRemaps:
+    []
+  Name: CICADA_PAINT
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: -0.000000, y: -89.980217, z: 0.000000}
+    scale: {x: 0.025400, y: 0.025400, z: 0.025400}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 3ddb8b22-4663-46f8-9d38-6d95f3a9bc47
+    - !<own> a8708bf5-8511-4f58-a503-cab954dd6c25
+  Components:
+    []
+- !<SceneObject/913ea135-6d7f-4a3b-975a-e39ebb352555>
+  PrefabRemaps:
+    []
+  Name: Scenes
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 94c03428-156f-42f3-aae8-92419bf6daaf
+  Components:
+    []
+- !<SceneObject/94c03428-156f-42f3-aae8-92419bf6daaf>
+  PrefabRemaps:
+    []
+  Name: Sketchfab_Scene
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 7b9f0c20-d508-41aa-87d5-2d74eb1693bc
+  Components:
+    - !<own> 6ac730e5-eaf2-4123-b60d-66f184185e45
+- !<SceneObject/9d641655-f921-421d-8c87-435014190db2>
+  PrefabRemaps:
+    []
+  Name: Object_20
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -34.563465, y: -27.100063, z: -31.486540}
+    rotation: {x: -90.000000, y: 90.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 571c7fb4-98e1-4bac-8008-bcc5883f4fad
+  Components:
+    []
+- !<ObjectPrefabAssetData/a30c04d8-098e-4e7d-8d39-e965b28dff05>
+  SourceRemaps:
+    - 08e2c025-eed2-4fc5-8613-8b008d7c3e71: 4c3d9138-9e5a-4e11-866c-f1aba7e47dee
+    - 08e9c656-872e-44e6-9362-9e65989a309a: 6ac730e5-eaf2-4123-b60d-66f184185e45
+    - 10e076bc-3a0b-44ff-b272-857a4173354f: ab1399e2-3506-40ad-8307-203226f573d5
+    - 116b17e4-9d5c-4a62-94e3-bfd89bbbd95f: 5dbbaca1-fd7d-4c80-80a8-39ac1704b6d6
+    - 11ee2679-cddf-4f42-8ce4-5f097ccf4075: a3d21031-fdc0-4eec-bb18-913524c31ee8
+    - 12c84875-0ecd-4ded-8f2c-0a53aadaac2a: 232adf4e-0733-422b-a56f-7b304243b8f1
+    - 13c73f54-5b9f-40c1-b0da-40c66b6ab34f: d258028b-35fd-406b-b16b-561cf4a7f269
+    - 16239d49-a278-41f3-a9e7-e3e75d3cb4ab: c99c75ed-ba36-4c38-9d01-775e97aea762
+    - 1625ad5b-55c1-4bad-a857-79c20aaeb2fc: 717fce60-b563-4c0b-920a-9ff8202ddb5b
+    - 181e633d-11ac-4067-8faa-706055c37e31: 0a86d628-f788-4b8a-a8ad-2c4a73a7ec3d
+    - 18e62c6f-3b82-4fc5-8cbb-1250571a25cf: feb7cea2-bfb9-48b6-9031-640b8350dc8a
+    - 20ecf10f-42bb-45d8-b84c-0cc3512746ff: c7fb294f-13f4-4e55-b87e-95e62fd7194d
+    - 2265ec79-4a56-4cba-907f-37beecf5e4e7: 47c7f9a4-d970-4b5c-87c4-1cafc739f840
+    - 2a95251f-23a9-4df3-bcd6-0aa8900dce8f: 75cfab8d-dd95-48a8-8a50-06bf0b749c47
+    - 2b669c73-c2b9-4ab6-bd3a-2cc56f9502f7: bc215c31-5966-4cb1-a4de-40d7d1da6196
+    - 2f828bd3-9e40-4c82-8935-977f811e1536: 407a9da2-1c03-4920-aa12-eb0ab3fc38d8
+    - 353250fe-965c-41e6-a12f-deff6681d2dc: 77ebd569-2c0a-4d0b-a70f-e2f5ab15faee
+    - 35b7d2c3-897f-4fb2-a7aa-2f8d42e6ffdc: d3754afc-7c57-4967-bdab-2f43c4cd647b
+    - 362e31b1-aba5-41b3-9b9e-8ff03205c5c4: a8708bf5-8511-4f58-a503-cab954dd6c25
+    - 38ee7876-e558-477c-be11-1beb7a4e724a: 7c5b145e-778a-4305-bac4-f3954432782f
+    - 3955d549-3b2c-46a2-b95d-02bae5fb7262: 025e36f6-cd88-49ac-8614-9ce3ab93dc87
+    - 3b554f0e-e43c-4cc8-b669-bf896549ebc8: 5fb8d401-c559-4263-851b-47e1790e364e
+    - 405897f6-abf4-4783-b181-caf64e57d8bd: 76646ede-fa66-46c2-b679-7f1e464b3653
+    - 43780d8b-bcae-42e3-900f-161d817c2368: 7869338b-18b1-47a7-9396-07cafbf54c9b
+    - 482e5d8d-522b-4400-bc3a-69a2ef5264d8: 2d98844c-4aab-40f3-b158-71c3eb475d51
+    - 4ace72e2-1f21-471a-9cac-855392ea02ee: 3ddb8b22-4663-46f8-9d38-6d95f3a9bc47
+    - 4c5e999f-094b-4742-b621-b60f38088ad4: 74093c03-e78a-4480-8848-6a2d67f7f8ab
+    - 4d484eb9-4e3c-4db9-9959-f6711768f4eb: ef774a4d-c36f-40ef-bd0b-8d4b46c38c98
+    - 54a7769d-e0b6-42c1-83c6-9132f84b98df: d10369fc-b836-4978-94d4-5bd322f8528f
+    - 587e9710-dbe1-4d92-9a78-fb3c6fe1ddb6: 4015cf6b-fc87-48dc-97f4-419c4e47bdb3
+    - 59b29e43-8d3d-4230-aed6-d3bdc72f2a01: c9e04216-6020-4650-a1c8-5733f0f44f8c
+    - 5a1c0de8-7349-4532-8410-98335da76073: 5ccb437f-55b3-4ea9-80b0-197eb3c373a3
+    - 5a2f5545-bbc8-4c74-8187-4a493fde5e89: 913ea135-6d7f-4a3b-975a-e39ebb352555
+    - 5d02be39-a59e-4512-9385-fe6ff6b63adf: 94c03428-156f-42f3-aae8-92419bf6daaf
+    - 60eefbac-3759-4d06-b42d-4ebd7bba5491: 51c322d8-d84c-4f6f-ae97-454b5e7d1987
+    - 6a503e1f-309e-400e-b5a7-c0614c806806: 33607036-6c2b-4769-9f87-cb8aa8fc65f1
+    - 6ccc71bf-09a9-4a77-b4b9-ea5153350366: e27d7833-cd32-4630-9710-0ceeea458e28
+    - 70ba3086-78aa-4fe1-9dc3-b943f35711ea: 18995ebd-3d34-4827-976e-1a6721652336
+    - 732dc646-f6c0-4e2d-9356-d6cf00b48a35: 47670331-ae0a-4886-b5b9-4cedc18e5caf
+    - 74024fa6-0259-4927-bc19-891f92cff2c5: 46ee7203-4a9b-4077-ad98-b53f5b993eeb
+    - 7458f38c-1618-42ce-b804-b66f3137ad5e: 666d2c3f-c4f1-4823-894b-519853a8867e
+    - 757463c5-2487-4f99-9f92-22fa8a7bb735: fc61c796-13d1-482f-bca7-23f525544bd3
+    - 7bc82fdd-88cb-4c1f-8655-4696de575a43: 8e716352-dde3-4f22-9463-f57563795efb
+    - 7c32fa46-600d-4e13-89c1-1390f7de1df4: 8047a68a-7bd0-4008-b034-aacb1e99396b
+    - 7f2e0c4c-44c7-411f-bfc4-ba491460169a: ed0b614b-393f-4535-99c9-59759a7fcce5
+    - 8229746e-2557-47e3-a454-a511fc8c3260: 4d662ac2-b0cc-4cac-8855-6406cd090f9c
+    - 8542a078-8845-4c68-b250-9d39c5492704: b45053c9-d3b4-4a1b-8dd3-e4bf0f426ca9
+    - 894a423c-0b29-4e86-9325-9349396a55a8: 235251d8-9bfd-4af4-8cbc-93c2743f3d35
+    - 8a0fbe9c-be88-4f51-8d58-ec67692250ce: 3b34a495-7653-48c5-a42f-c0c9c8b95806
+    - 8e654962-4243-4984-af82-3a64820cfd52: 7d22d4e8-113c-442e-8289-83372773fcc1
+    - 929b9da9-b52f-41ae-8e61-3fdafdf16879: 6ba70721-ba1a-4270-bf83-ddfd018c186b
+    - 92cd0dda-c742-47b1-827d-7b9bc05a8826: 56c67ef7-af08-4726-82e1-594cdbbfd9b0
+    - 9add32db-bbae-48d4-a559-c2a3040492f4: e8fcc35b-ace3-4476-9adf-e11fee2b9dec
+    - 9af6408d-bab7-477a-afad-534d65a39537: 571c7fb4-98e1-4bac-8008-bcc5883f4fad
+    - 9f579fba-cb76-41e1-a1fb-a5dd73a36065: 91172a2c-e31f-4b9e-b1c0-e1d3c53d10f2
+    - a4128c7e-467f-4234-abab-f25a3c32d946: 80095c6c-f4b4-445e-89b1-2c9c54a614ee
+    - a4f6e2a9-a349-4113-b45c-ab27d4169c5a: c9658c27-70e2-4621-9c8f-849706c24b27
+    - a5d925b2-d03f-44f2-9e1b-0ca119b39de0: 638ba219-240a-466d-8bac-412dc314abd7
+    - a69bf64c-4768-4803-86b9-fcff81b1e4e1: 37fec6b3-dc63-441c-9015-0adefd0086e1
+    - a7826c51-fc9c-4106-b173-ab2e4004f59a: 9d641655-f921-421d-8c87-435014190db2
+    - aac84b01-417c-42ff-b415-396bd3c61d06: d2666246-8928-4846-8ab6-333119e24de6
+    - aae31a23-07ea-4a30-83b4-a2f65315b7f9: 5a47fa0c-3db3-4972-a983-948490a2b7f6
+    - ac88a74d-3985-4e5d-b002-d431ac2941bf: a9e2553b-f00d-4f27-bd3e-3ee5ff6ecca8
+    - ad2bfc83-ed1e-4cf9-b4fb-9d546b87e659: 2257d60c-de4e-4aea-a7d8-57cb8bf01d36
+    - aefccc98-7915-4e00-a461-0eee4b20893d: 52a41916-49fa-495b-9c29-fb9d75a8bef1
+    - b35a1fa8-02fc-4112-b5cb-84b6a7c45598: 31b77879-cd2f-426a-820a-cfd4b3979292
+    - b70265a5-0e18-4db8-92e5-f1cadb762d3b: 1c359b64-b241-48bc-a68a-e75b213feb05
+    - b906ddb3-6aba-4dfa-a41e-eacd7eada9a8: ba9f6d47-7f34-4e66-926c-178b69569c25
+    - b948cabe-5a49-4e19-b646-687454768f6c: c35896e4-a52a-49ce-93fe-9bf1455d5c90
+    - bcb17c2f-3498-4529-a1c1-4c0c2bb52e72: f7657cb4-8de3-4c18-afcb-d1cc74de925f
+    - bdedcd5b-3c0c-4a85-a97f-4b0f90a7c644: 07cc762f-4fda-41ff-a50c-69ed559420b2
+    - be59d724-a614-4e7b-92e4-a6089b72a8db: b78d50c7-20c3-4570-a46a-55ed649bdf5c
+    - bf465e49-7e1a-4b39-ab78-da57706de6a6: 2705da7c-d775-4085-b4ae-dd7290871a0f
+    - c4d2573f-6fd6-4028-9918-36620b361122: 5a1c67c4-abec-4c58-8e99-17eb8c9f2447
+    - c8a65392-e4e8-45f8-ae7d-a43b3b865031: e577ed17-90cf-4e52-87ab-4005712accc9
+    - cbac524e-ac29-4a67-8c46-d5705af027b6: 015e0c6c-d205-41f9-a01a-7c80ae66b119
+    - cc9664c0-dc6b-4217-9b37-d1dd413e486d: c0794e04-a201-4706-91d7-bf452805125c
+    - ccdcacce-6da6-4559-a921-4ab4912c38ff: 7e98c451-77f1-41ae-98c6-309ac43ea31f
+    - cd4f59c3-24f6-4a16-93ba-9026eba2b121: ac3740e7-d949-407d-888d-34629f5346e6
+    - cea2fca6-18b0-4b23-afe4-29726e1174d5: f8b2fb0a-2dc9-4c9e-a7fc-187b1c5bc7e2
+    - cf348739-f1d9-4f23-913e-bc7ce121a89f: e59648ed-84ad-49a1-bb8a-6ebaae19aa2c
+    - d017b2d1-b0da-4097-9ddc-863299beef25: a56dd90f-eacd-44bc-91a9-3303e7da978a
+    - d2d4f3cd-53f9-4324-8e06-b6cb4ea1297d: 010b96b0-9217-41e6-8427-ae0164df281e
+    - dc2e5fab-99f3-40f3-9582-6dc8f14547eb: b61ea09f-b73b-4e60-95e7-589401af54ad
+    - e0bfc4b6-a9d2-4bba-90e3-86001d3e2cab: bcc54b80-0a84-40ed-a7de-41675cf8c856
+    - eb72f9af-230e-4194-b3af-0a1dbc3e66e9: 0cfe7f50-a652-4969-b604-945218ef5fe8
+    - f1cd202d-6d23-476c-8bcf-443cfcb19b9c: ca3c67ea-3a48-4779-8bf0-920a28469c30
+    - f1dedf38-cdba-4714-bbce-a3d746489462: 7b9f0c20-d508-41aa-87d5-2d74eb1693bc
+    - f3e64375-fe09-4d2f-8ef0-08c1b1548759: d319fb4c-7c12-48fa-88f3-6b88cf8236f5
+    - f3e8386e-ad9c-4915-a09f-fb9e3c4bd1bc: 03a5067a-93be-40f4-a872-8444ee17e637
+    - f486455f-acdb-497e-ae44-3fa12b353f1a: ad5a350c-17d9-4647-9fc8-fd28390ce1c9
+    - fd26d903-5fdc-4cd9-bafe-3d15373f39f8: e6dce9ad-310e-4ebc-8509-c2126b7c48b5
+    - fe6be542-477f-4ae1-a71a-559f74c7ceb0: ff30f95a-62a9-46b0-acdd-a88b250763bb
+  SourceState: !<own> ab1399e2-3506-40ad-8307-203226f573d5
+- !<SceneObject/a3d21031-fdc0-4eec-bb18-913524c31ee8>
+  PrefabRemaps:
+    []
+  Name: scene
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 913ea135-6d7f-4a3b-975a-e39ebb352555
+  Components:
+    []
+- !<SceneObject/a56dd90f-eacd-44bc-91a9-3303e7da978a>
+  PrefabRemaps:
+    []
+  Name: right_door_glass
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 8.939829, y: 13.089388, z: -19.181732}
+    rotation: {x: -0.000000, y: 0.000000, z: -0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 2705da7c-d775-4085-b4ae-dd7290871a0f
+  Components:
+    []
+- !<SceneObject/a8708bf5-8511-4f58-a503-cab954dd6c25>
+  PrefabRemaps:
+    []
+  Name: BODY
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 1c359b64-b241-48bc-a68a-e75b213feb05
+    - !<own> c7fb294f-13f4-4e55-b87e-95e62fd7194d
+    - !<own> 638ba219-240a-466d-8bac-412dc314abd7
+    - !<own> ba9f6d47-7f34-4e66-926c-178b69569c25
+    - !<own> 37fec6b3-dc63-441c-9015-0adefd0086e1
+    - !<own> ed0b614b-393f-4535-99c9-59759a7fcce5
+    - !<own> 5a47fa0c-3db3-4972-a983-948490a2b7f6
+    - !<own> 717fce60-b563-4c0b-920a-9ff8202ddb5b
+    - !<own> ad5a350c-17d9-4647-9fc8-fd28390ce1c9
+    - !<own> 46ee7203-4a9b-4077-ad98-b53f5b993eeb
+    - !<own> c99c75ed-ba36-4c38-9d01-775e97aea762
+    - !<own> 33607036-6c2b-4769-9f87-cb8aa8fc65f1
+  Components:
+    []
+- !<SceneObject/a9e2553b-f00d-4f27-bd3e-3ee5ff6ecca8>
+  PrefabRemaps:
+    []
+  Name: Object_47
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: -90.000000, y: 90.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 3b34a495-7653-48c5-a42f-c0c9c8b95806
+  Components:
+    []
+- !<ObjectPrefab/ab1399e2-3506-40ad-8307-203226f573d5>
+  PackagePath: ""
+  objects:
+    - !<own> a3d21031-fdc0-4eec-bb18-913524c31ee8
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/ac3740e7-d949-407d-888d-34629f5346e6>
+  PrefabRemaps:
+    []
+  Name: 78b7bfc15f9b487abaedaa116ee633be.fbx
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 90.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> c0794e04-a201-4706-91d7-bf452805125c
+  Components:
+    []
+- !<SceneObject/ad5a350c-17d9-4647-9fc8-fd28390ce1c9>
+  PrefabRemaps:
+    []
+  Name: inside
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> d10369fc-b836-4978-94d4-5bd322f8528f
+    - !<own> d2666246-8928-4846-8ab6-333119e24de6
+  Components:
+    []
+- !<RenderMeshVisual/b45053c9-d3b4-4a1b-8dd3-e4bf0f426ca9>
+  PrefabRemaps:
+    []
+  Name: left_door_glass_CICADA_GLASS_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 3770e326-1d2b-4e9d-b9e3-059acd803019
+  Mesh: !<reference> dcf09749-70b8-47c7-ac2a-edbf6ef93296
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/b61ea09f-b73b-4e60-95e7-589401af54ad>
+  PrefabRemaps:
+    []
+  Name: Object_56
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: -90.000000, y: 90.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> fc61c796-13d1-482f-bca7-23f525544bd3
+  Components:
+    []
+- !<SceneObject/b78d50c7-20c3-4570-a46a-55ed649bdf5c>
+  PrefabRemaps:
+    []
+  Name: RIGHT_DOOR_CICADA_PAINT_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 5fb8d401-c559-4263-851b-47e1790e364e
+- !<SceneObject/ba9f6d47-7f34-4e66-926c-178b69569c25>
+  PrefabRemaps:
+    []
+  Name: right_front_wheel
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -28.418373, y: 11.433285, z: 50.450035}
+    rotation: {x: -0.000000, y: -0.000000, z: -0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> c9658c27-70e2-4621-9c8f-849706c24b27
+  Components:
+    []
+- !<SceneObject/bc215c31-5966-4cb1-a4de-40d7d1da6196>
+  PrefabRemaps:
+    []
+  Name: Object_32
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 34.534714, y: -27.100067, z: -31.486540}
+    rotation: {x: -90.000000, y: 90.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 5a1c67c4-abec-4c58-8e99-17eb8c9f2447
+  Components:
+    []
+- !<SceneObject/bcc54b80-0a84-40ed-a7de-41675cf8c856>
+  PrefabRemaps:
+    []
+  Name: left_front_wheel_CICADA_DEFAULT_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 7c5b145e-778a-4305-bac4-f3954432782f
+- !<SceneObject/c0794e04-a201-4706-91d7-bf452805125c>
+  PrefabRemaps:
+    []
+  Name: Object_2
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 6ba70721-ba1a-4270-bf83-ddfd018c186b
+  Components:
+    []
+- !<SceneObject/c35896e4-a52a-49ce-93fe-9bf1455d5c90>
+  PrefabRemaps:
+    []
+  Name: Object_59
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: -90.000000, y: 90.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 015e0c6c-d205-41f9-a01a-7c80ae66b119
+  Components:
+    []
+- !<SceneObject/c7fb294f-13f4-4e55-b87e-95e62fd7194d>
+  PrefabRemaps:
+    []
+  Name: LEFT_DOOR
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 34.563461, y: 27.100063, z: 31.486538}
+    rotation: {x: -0.000000, y: -0.000000, z: -0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 18995ebd-3d34-4827-976e-1a6721652336
+    - !<own> 0a86d628-f788-4b8a-a8ad-2c4a73a7ec3d
+    - !<own> 75cfab8d-dd95-48a8-8a50-06bf0b749c47
+    - !<own> ff30f95a-62a9-46b0-acdd-a88b250763bb
+  Components:
+    []
+- !<SceneObject/c9658c27-70e2-4621-9c8f-849706c24b27>
+  PrefabRemaps:
+    []
+  Name: Object_35
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 28.418373, y: -11.433286, z: -50.450039}
+    rotation: {x: -90.000000, y: 90.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 76646ede-fa66-46c2-b679-7f1e464b3653
+  Components:
+    []
+- !<SceneObject/c99c75ed-ba36-4c38-9d01-775e97aea762>
+  PrefabRemaps:
+    []
+  Name: rear_lamp_glass
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> c35896e4-a52a-49ce-93fe-9bf1455d5c90
+  Components:
+    []
+- !<RenderMeshVisual/c9e04216-6020-4650-a1c8-5733f0f44f8c>
+  PrefabRemaps:
+    []
+  Name: cicada_shadow_CICADA_SHADOW_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 8b231601-5b8e-4e0e-881d-db1b648dc46f
+  Mesh: !<reference> 21ec1747-8cea-4551-8a2e-a428b9cfcf4a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/ca3c67ea-3a48-4779-8bf0-920a28469c30>
+  PrefabRemaps:
+    []
+  Name: CICADA_CHROME_CICADA_CHROME_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 53fac067-2c6e-4427-be5f-23d17c93e24c
+  Mesh: !<reference> 187acce5-60aa-4287-9bf5-036a6f9c8433
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/d10369fc-b836-4978-94d4-5bd322f8528f>
+  PrefabRemaps:
+    []
+  Name: Object_50
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: -90.000000, y: 90.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> f8b2fb0a-2dc9-4c9e-a7fc-187b1c5bc7e2
+  Components:
+    []
+- !<SceneObject/d258028b-35fd-406b-b16b-561cf4a7f269>
+  PrefabRemaps:
+    []
+  Name: CICADA_CHROME_CICADA_CHROME_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ca3c67ea-3a48-4779-8bf0-920a28469c30
+- !<SceneObject/d2666246-8928-4846-8ab6-333119e24de6>
+  PrefabRemaps:
+    []
+  Name: steering_wheel
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 15.557327, y: 36.749165, z: 24.660854}
+    rotation: {x: -145.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 8e716352-dde3-4f22-9463-f57563795efb
+  Components:
+    []
+- !<SceneObject/d319fb4c-7c12-48fa-88f3-6b88cf8236f5>
+  PrefabRemaps:
+    []
+  Name: DOOR_R_CHROME_CICADA_DEFAULT_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> e8fcc35b-ace3-4476-9adf-e11fee2b9dec
+- !<SceneObject/d3754afc-7c57-4967-bdab-2f43c4cd647b>
+  PrefabRemaps:
+    []
+  Name: DOOR_R_MATTE
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> bc215c31-5966-4cb1-a4de-40d7d1da6196
+  Components:
+    []
+- !<RenderMeshVisual/e27d7833-cd32-4630-9710-0ceeea458e28>
+  PrefabRemaps:
+    []
+  Name: right_door_glass_CICADA_GLASS_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 3770e326-1d2b-4e9d-b9e3-059acd803019
+  Mesh: !<reference> f7e3758e-6b18-440b-b11f-2e5f1e392626
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/e577ed17-90cf-4e52-87ab-4005712accc9>
+  PrefabRemaps:
+    []
+  Name: steering_wheel_CICADA_DEFAULT_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> b9ef6e67-8558-4e82-8a17-ca6a38bd0cd9
+  Mesh: !<reference> e8b57e47-5f14-404a-889e-be103bc3f108
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/e59648ed-84ad-49a1-bb8a-6ebaae19aa2c>
+  PrefabRemaps:
+    []
+  Name: cicada_shadow_CICADA_SHADOW_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> c9e04216-6020-4650-a1c8-5733f0f44f8c
+- !<SceneObject/e6dce9ad-310e-4ebc-8509-c2126b7c48b5>
+  PrefabRemaps:
+    []
+  Name: steering_wheel_CICADA_DEFAULT_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> e577ed17-90cf-4e52-87ab-4005712accc9
+- !<RenderMeshVisual/e8fcc35b-ace3-4476-9adf-e11fee2b9dec>
+  PrefabRemaps:
+    []
+  Name: DOOR_R_CHROME_CICADA_DEFAULT_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> b9ef6e67-8558-4e82-8a17-ca6a38bd0cd9
+  Mesh: !<reference> e251e13b-673c-4357-befc-14c301c7a933
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/ed0b614b-393f-4535-99c9-59759a7fcce5>
+  PrefabRemaps:
+    []
+  Name: left_rear_wheel
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 28.472530, y: 11.433292, z: -33.231857}
+    rotation: {x: -0.000000, y: -0.000000, z: -0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 2d98844c-4aab-40f3-b158-71c3eb475d51
+  Components:
+    []
+- !<RenderMeshVisual/ef774a4d-c36f-40ef-bd0b-8d4b46c38c98>
+  PrefabRemaps:
+    []
+  Name: CICADA_PAINT_CICADA_PAINT_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 2a8db4c6-347e-4b8e-b2c1-a2e19fc94ab7
+  Mesh: !<reference> fe155a86-a76c-4b2b-978f-73f0e057b9b3
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/f7657cb4-8de3-4c18-afcb-d1cc74de925f>
+  PrefabRemaps:
+    []
+  Name: glass_CICADA_GLASS_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 3770e326-1d2b-4e9d-b9e3-059acd803019
+  Mesh: !<reference> b8c25661-a7a5-4be1-b069-b0f0a2c9a2a5
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/f8b2fb0a-2dc9-4c9e-a7fc-187b1c5bc7e2>
+  PrefabRemaps:
+    []
+  Name: inside_CICADA_DEFAULT_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 010b96b0-9217-41e6-8427-ae0164df281e
+- !<SceneObject/fc61c796-13d1-482f-bca7-23f525544bd3>
+  PrefabRemaps:
+    []
+  Name: front_lamp_glass_CICADA_LAMPS_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 7869338b-18b1-47a7-9396-07cafbf54c9b
+- !<SceneObject/feb7cea2-bfb9-48b6-9031-640b8350dc8a>
+  PrefabRemaps:
+    []
+  Name: CICADA_PAINT_CICADA_PAINT_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ef774a4d-c36f-40ef-bd0b-8d4b46c38c98
+- !<SceneObject/ff30f95a-62a9-46b0-acdd-a88b250763bb>
+  PrefabRemaps:
+    []
+  Name: DOOR_L_MATTE
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 9d641655-f921-421d-8c87-435014190db2
+  Components:
+    []

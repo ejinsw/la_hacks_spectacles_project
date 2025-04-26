@@ -1,0 +1,267 @@
+- !<AssetImportMetadata/9bb8d958-09b5-402e-b926-7142006d2b1d>
+  ImportedAssetIds:
+    .hidden/Outline: !<reference> 58e4e2f2-c7a9-43dc-8e44-b5fdc146a805
+    17dca5de766ab0e7: !<reference> 0fd33b00-e369-4ff3-998f-a343cf20dd5f
+    2839b571236676f9: !<reference> b4d2da85-9d81-4961-9206-759c328ae438
+    4a3e924fad0e2f27: !<reference> b3ac322a-d5a2-4430-ab34-1e0606754998
+    5456cd091e7655cc: !<reference> 30f7ade7-582d-4ae9-9dab-c024097e4564
+    66780cf3a4dcb2b8: !<reference> cbd01cb0-b012-492c-b9f3-6aafd659f6d7
+    8cc004ff93d4b7dd: !<reference> cfa61e8d-31c1-4166-b3e8-e8e1490e525f
+    8f3c2fe098dcca42: !<reference> 1ce73062-18a3-4903-850a-9ce3ef279e94
+    94be42815d005137: !<reference> 1283e564-5fb6-4331-a0e5-ff1cbd2ead99
+    Materials/Outline: !<reference> 5c27bacf-941e-4b29-9c2e-a443804871af
+    Materials/Outline|Outline|GraphPassInfo: !<reference> e9f64633-1580-408f-90d6-fb5d0f03a35f
+    Materials/Paw_Painted: !<reference> 5091135b-8e97-488b-a82f-c62609684635
+    Materials/Paw_Painted|Paw_Painted|GraphPassInfo: !<reference> a7a11041-89fd-40ae-b02a-8836fb051d41
+    Meshes/Paw_Outline_0: !<reference> d41e1363-8836-4732-b015-56e84ad30d3f
+    Meshes/Paw_Paw_Painted_0: !<reference> ce9b7795-9c54-4724-95a7-8faad9c3a765
+    Scene: !<reference> 5f60b11c-a8f8-44a3-832c-e07548524b0f
+    Textures/Paw_Painted_baseColor: !<reference> 91cf6399-90da-4308-8913-40b711eaf516
+    d3e02c2667707ff0: !<reference> 1e963e94-1824-4fe9-b5b9-9c3fa88fb637
+    e9d5fcc0a1b559ea: !<reference> b712b106-fc8a-4352-8820-4e5cee96c64f
+    f4e3a55972359e22: !<reference> 4985fe6c-6f95-4121-ab97-d553d5aa4884
+    ff7936aad4ab157c: !<reference> c685c241-c5b6-4251-9654-434b018e07d3
+  ImporterName: GltfImporter
+  PrimaryAsset: !<reference> 5f60b11c-a8f8-44a3-832c-e07548524b0f
+  PackageType: LegacyPackage
+  PackagePolicy: CanBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> f92a1f8d-fa05-4e7e-9973-ac91b3055750
+  DependentFiles:
+    - scene.bin
+    - textures/Paw_Painted_baseColor.png
+  ImporterSettings: !<GltfImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBased
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangents: true
+    ImportMorphTargetAnimation: true
+    ConvertMetersToCentimeters: true
+    RegenerateTangents: false
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<SingleCompressionSettings>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+      Performance Compression: !<SingleCompressionSettings>
+        CompressorName: Performance
+        CompressionSettings: !<TextureCompressionSettings>
+          Level: Medium
+    ExtensionMappings:
+      mesh: None Compression
+      png: Performance Compression
+    Overrides:
+      {}
+- !<SceneObject/06e8d59f-4f21-4bf8-88b9-62c70ee43b4e>
+  PrefabRemaps:
+    []
+  Name: Paw.fbx
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 90.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.010000, y: 0.010000, z: 0.010000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 103dd43b-5ea8-4652-9bb3-cb126bcddc5b
+  Components:
+    []
+- !<SceneObject/0c311797-e739-4eab-bac7-b87b717eb458>
+  PrefabRemaps:
+    []
+  Name: Scenes
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 56c8976a-6a26-46e0-a220-e97de5e89717
+  Components:
+    []
+- !<SceneObject/103dd43b-5ea8-4652-9bb3-cb126bcddc5b>
+  PrefabRemaps:
+    []
+  Name: RootNode
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> a42e3070-d7cf-482c-b352-f79240c83b56
+  Components:
+    []
+- !<SceneObject/56c8976a-6a26-46e0-a220-e97de5e89717>
+  PrefabRemaps:
+    []
+  Name: Sketchfab_Scene
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> eaaffd43-7be2-4bfd-b406-f2927fffec59
+  Components:
+    - !<own> aaaf3189-5636-4422-b6aa-955a056b2e9f
+- !<SceneObject/5c683a5b-bb27-4c9c-ba35-ab2e5afe947e>
+  PrefabRemaps:
+    []
+  Name: Paw_Paw_Painted_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 6b5e7ac6-8131-4500-b0da-37c017466e06
+- !<SceneObject/612e4e05-deb0-4896-885f-718ece2e842c>
+  PrefabRemaps:
+    []
+  Name: scene
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 0c311797-e739-4eab-bac7-b87b717eb458
+  Components:
+    []
+- !<RenderMeshVisual/6b5e7ac6-8131-4500-b0da-37c017466e06>
+  PrefabRemaps:
+    []
+  Name: Paw_Paw_Painted_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 5091135b-8e97-488b-a82f-c62609684635
+  Mesh: !<reference> ce9b7795-9c54-4724-95a7-8faad9c3a765
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ObjectPrefab/87f5f7dd-d3f8-4398-b0e4-71699d17815d>
+  PackagePath: ""
+  objects:
+    - !<own> 612e4e05-deb0-4896-885f-718ece2e842c
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/a42e3070-d7cf-482c-b352-f79240c83b56>
+  PrefabRemaps:
+    []
+  Name: Paw
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 180.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 5c683a5b-bb27-4c9c-ba35-ab2e5afe947e
+    - !<own> c7ac527a-8688-4e13-8c71-6f90eb0e246d
+  Components:
+    []
+- !<AnimationPlayer/aaaf3189-5636-4422-b6aa-955a056b2e9f>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  Autoplay: true
+  ClipRangeType: Frames
+  AnimationClips:
+    []
+- !<RenderMeshVisual/c77e3327-b6ad-466b-8b64-4828fd7af406>
+  PrefabRemaps:
+    []
+  Name: Paw_Outline_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 5c27bacf-941e-4b29-9c2e-a443804871af
+  Mesh: !<reference> d41e1363-8836-4732-b015-56e84ad30d3f
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/c7ac527a-8688-4e13-8c71-6f90eb0e246d>
+  PrefabRemaps:
+    []
+  Name: Paw_Outline_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> c77e3327-b6ad-466b-8b64-4828fd7af406
+- !<SceneObject/eaaffd43-7be2-4bfd-b406-f2927fffec59>
+  PrefabRemaps:
+    []
+  Name: Sketchfab_model
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: -90.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 06e8d59f-4f21-4bf8-88b9-62c70ee43b4e
+  Components:
+    []
+- !<ObjectPrefabAssetData/f92a1f8d-fa05-4e7e-9973-ac91b3055750>
+  SourceRemaps:
+    - 0fd33b00-e369-4ff3-998f-a343cf20dd5f: 103dd43b-5ea8-4652-9bb3-cb126bcddc5b
+    - 1283e564-5fb6-4331-a0e5-ff1cbd2ead99: 06e8d59f-4f21-4bf8-88b9-62c70ee43b4e
+    - 1ce73062-18a3-4903-850a-9ce3ef279e94: a42e3070-d7cf-482c-b352-f79240c83b56
+    - 1e963e94-1824-4fe9-b5b9-9c3fa88fb637: 6b5e7ac6-8131-4500-b0da-37c017466e06
+    - 30f7ade7-582d-4ae9-9dab-c024097e4564: 56c8976a-6a26-46e0-a220-e97de5e89717
+    - 4985fe6c-6f95-4121-ab97-d553d5aa4884: c77e3327-b6ad-466b-8b64-4828fd7af406
+    - 5f60b11c-a8f8-44a3-832c-e07548524b0f: 87f5f7dd-d3f8-4398-b0e4-71699d17815d
+    - b3ac322a-d5a2-4430-ab34-1e0606754998: 0c311797-e739-4eab-bac7-b87b717eb458
+    - b4d2da85-9d81-4961-9206-759c328ae438: 5c683a5b-bb27-4c9c-ba35-ab2e5afe947e
+    - b712b106-fc8a-4352-8820-4e5cee96c64f: c7ac527a-8688-4e13-8c71-6f90eb0e246d
+    - c685c241-c5b6-4251-9654-434b018e07d3: eaaffd43-7be2-4bfd-b406-f2927fffec59
+    - cbd01cb0-b012-492c-b9f3-6aafd659f6d7: 612e4e05-deb0-4896-885f-718ece2e842c
+    - cfa61e8d-31c1-4166-b3e8-e8e1490e525f: aaaf3189-5636-4422-b6aa-955a056b2e9f
+  SourceState: !<own> 87f5f7dd-d3f8-4398-b0e4-71699d17815d

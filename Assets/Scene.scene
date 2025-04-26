@@ -1654,7 +1654,7 @@
     {}
   ScriptInputs:
     "":
-      handType: 2
+      handType: 1
       checkType: 0
       jointGroupA: !<string[]>
         - thumb-3
@@ -1806,7 +1806,7 @@
     {}
   ScriptInputs:
     "":
-      handType: 2
+      handType: 1
       checkType: 0
       jointGroupA: !<string[]>
         - pinky-3
@@ -1997,7 +1997,7 @@
     - ec130442-3127-4ccd-8030-6b5568ed3765: 51494ac4-299b-44c1-96d9-d15ccf9f3b3d
     - ec51ef42-d195-4a1a-8895-8440dae5aee8: f204e26d-1c88-493b-b4f2-08c77c1998cb
   Name: Alpha_W
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -3669,7 +3669,6 @@
   ScriptInputsDefault:
     checkType: true
     targetObject: true
-    visualizeDistance: true
     sendTriggers: true
     enterRangeTrigger: true
     exitRangeTrigger: true
@@ -3677,14 +3676,14 @@
     {}
   ScriptInputs:
     "":
-      handType: 2
+      handType: 1
       checkType: 0
       jointGroupA: !<string[]>
         - ring-3
       jointGroupB: !<string[]>
         - wrist
       targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      visualizeDistance: false
+      visualizeDistance: true
       checkDistance: true
       minDistance: !<float> 7.000000
       maxDistance: !<float> 11.000000
@@ -3878,7 +3877,7 @@
   PrefabRemaps:
     []
   Name: Floor
-  Enabled: false
+  Enabled: true
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: -10.000000, z: 0.000000}
@@ -5301,7 +5300,7 @@
     {}
   ScriptInputs:
     "":
-      handType: 2
+      handType: 1
       checkType: 0
       jointGroupA: !<string[]>
         - ring-3
@@ -6597,7 +6596,7 @@
   PrefabRemaps:
     []
   Name: LeftHandTracking
-  Enabled: false
+  Enabled: true
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -10870,7 +10869,7 @@
     {}
   ScriptInputs:
     "":
-      handType: 2
+      handType: 1
       checkType: 0
       jointGroupA: !<string[]>
         - index-3
@@ -11031,7 +11030,7 @@
     - ce459e96-07f9-4ec8-b798-2c1481f7bb28: b6fd8178-99a0-4ff5-8f71-fc1653b58d88
     - e4ee38cd-9ed2-4f4c-9c53-b7b03e7b8e0d: 3e374a79-7ef2-4722-b518-e9ba8789febc
   Name: Alpha_P
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -11328,7 +11327,7 @@
     {}
   ScriptInputs:
     "":
-      handType: 2
+      handType: 1
       checkType: 0
       jointGroupA: !<string[]>
         - thumb-3
@@ -15187,7 +15186,7 @@
     - d9ec2edf-e3f2-406a-81ee-bcde3127becd: eec8d691-ee27-4ab1-8014-fab7f8d0e164
     - f66db36f-aa17-4b78-908e-2b9c65406896: 99424cb8-f92d-45f1-9d89-330386d76dae
   Name: Alpha_R
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -18643,7 +18642,7 @@
     - ef4936b8-248b-43d4-8ecb-d6e7ba815a5a: 2ca143db-bf76-4b8a-8ad6-f73a2d04cae5
     - f8e6b2a4-2371-406c-8711-91d62ac7e06d: 82a01de8-bffd-442c-9b66-dcd64697cad6
   Name: Alpha_C
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -18764,7 +18763,7 @@
     {}
   ScriptInputs:
     "":
-      handType: 2
+      handType: 1
       checkType: 0
       jointGroupA: !<string[]>
         - index-3
@@ -19888,7 +19887,7 @@
     {}
   ScriptInputs:
     "":
-      handType: 2
+      handType: 1
       checkType: 0
       jointGroupA: !<string[]>
         - mid-3
@@ -21460,7 +21459,7 @@
     {}
   ScriptInputs:
     "":
-      handType: 2
+      handType: 1
       checkType: 0
       jointGroupA: !<string[]>
         - mid-3
@@ -21494,7 +21493,7 @@
     - c7feb178-2895-4df0-a676-eb40474d18c1: 8ef472e1-508b-44e2-a30a-d3dd1c94708b
     - fe398882-23cb-4f71-b54d-88d3a9bb3bd6: 61446905-a4b9-4579-868c-c4f3564377ad
   Name: Alpha_D
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}

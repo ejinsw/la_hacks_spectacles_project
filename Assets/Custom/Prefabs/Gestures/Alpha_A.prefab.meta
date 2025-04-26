@@ -26,11 +26,11 @@
     scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
   Children:
+    - !<own> f3e6fe5b-2ea9-4009-9c73-1ecc07fb384d
     - !<own> 5b5f50c9-e387-4ea8-ba2f-5c9ba67d7c8e
     - !<own> 93a0db9d-71fc-4856-91cd-6296b0eaf6ce
     - !<own> e8d2da96-bc49-4ab5-bebf-196e451b70a8
     - !<own> 66e975c5-bc30-434d-ac66-ab4f768a4c16
-    - !<own> f3e6fe5b-2ea9-4009-9c73-1ecc07fb384d
     - !<own> a7332ddc-0d21-4dbf-b76c-6d2cef4b89e3
     - !<own> 4102e842-85b2-40aa-b76e-5c26d999012a
     - !<own> 7fb39280-04fb-45cc-be8e-f2fb52690c92
@@ -60,10 +60,8 @@
   Enabled: true
   ScriptAsset: !<reference> 1eb40896-318d-4f06-b675-881932129494
   ScriptInputsDefault:
-    handType: true
     checkType: true
     targetObject: true
-    visualizeDistance: true
     sendTriggers: true
     enterRangeTrigger: true
     exitRangeTrigger: true
@@ -71,14 +69,14 @@
     {}
   ScriptInputs:
     "":
-      handType: 0
+      handType: 2
       checkType: 0
       jointGroupA: !<string[]>
         - index-3
       jointGroupB: !<string[]>
         - wrist
       targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      visualizeDistance: false
+      visualizeDistance: true
       checkDistance: true
       minDistance: !<float> 7.000000
       maxDistance: !<float> 12.000000
@@ -95,10 +93,8 @@
   Enabled: true
   ScriptAsset: !<reference> 1eb40896-318d-4f06-b675-881932129494
   ScriptInputsDefault:
-    handType: true
     checkType: true
     targetObject: true
-    visualizeDistance: true
     minDistance: true
     sendTriggers: true
     enterRangeTrigger: true
@@ -107,14 +103,14 @@
     {}
   ScriptInputs:
     "":
-      handType: 0
+      handType: 2
       checkType: 0
       jointGroupA: !<string[]>
         - index-3
       jointGroupB: !<string[]>
         - mid-3
       targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      visualizeDistance: false
+      visualizeDistance: true
       checkDistance: true
       minDistance: !<float> 0.000000
       maxDistance: !<float> 3.000000
@@ -131,10 +127,8 @@
   Enabled: true
   ScriptAsset: !<reference> 1eb40896-318d-4f06-b675-881932129494
   ScriptInputsDefault:
-    handType: true
     checkType: true
     targetObject: true
-    visualizeDistance: true
     sendTriggers: true
     enterRangeTrigger: true
     exitRangeTrigger: true
@@ -142,14 +136,14 @@
     {}
   ScriptInputs:
     "":
-      handType: 0
+      handType: 2
       checkType: 0
       jointGroupA: !<string[]>
         - thumb-3
       jointGroupB: !<string[]>
         - wrist
       targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      visualizeDistance: false
+      visualizeDistance: true
       checkDistance: true
       minDistance: !<float> 11.000000
       maxDistance: !<float> 16.000000
@@ -181,10 +175,8 @@
   Enabled: true
   ScriptAsset: !<reference> 1eb40896-318d-4f06-b675-881932129494
   ScriptInputsDefault:
-    handType: true
     checkType: true
     targetObject: true
-    visualizeDistance: true
     sendTriggers: true
     enterRangeTrigger: true
     exitRangeTrigger: true
@@ -192,14 +184,14 @@
     {}
   ScriptInputs:
     "":
-      handType: 0
+      handType: 2
       checkType: 0
       jointGroupA: !<string[]>
         - ring-3
       jointGroupB: !<string[]>
         - wrist
       targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      visualizeDistance: false
+      visualizeDistance: true
       checkDistance: true
       minDistance: !<float> 7.000000
       maxDistance: !<float> 11.000000
@@ -216,10 +208,8 @@
   Enabled: true
   ScriptAsset: !<reference> 1eb40896-318d-4f06-b675-881932129494
   ScriptInputsDefault:
-    handType: true
     checkType: true
     targetObject: true
-    visualizeDistance: true
     minDistance: true
     sendTriggers: true
     enterRangeTrigger: true
@@ -228,14 +218,14 @@
     {}
   ScriptInputs:
     "":
-      handType: 0
+      handType: 2
       checkType: 0
       jointGroupA: !<string[]>
         - mid-3
       jointGroupB: !<string[]>
         - ring-3
       targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      visualizeDistance: false
+      visualizeDistance: true
       checkDistance: true
       minDistance: !<float> 0.000000
       maxDistance: !<float> 3.000000
@@ -310,10 +300,8 @@
   Enabled: true
   ScriptAsset: !<reference> 1eb40896-318d-4f06-b675-881932129494
   ScriptInputsDefault:
-    handType: true
     checkType: true
     targetObject: true
-    visualizeDistance: true
     sendTriggers: true
     enterRangeTrigger: true
     exitRangeTrigger: true
@@ -321,14 +309,14 @@
     {}
   ScriptInputs:
     "":
-      handType: 0
+      handType: 2
       checkType: 0
       jointGroupA: !<string[]>
         - pinky-3
       jointGroupB: !<string[]>
         - wrist
       targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      visualizeDistance: false
+      visualizeDistance: true
       checkDistance: true
       minDistance: !<float> 7.000000
       maxDistance: !<float> 11.000000
@@ -407,10 +395,8 @@
   Enabled: true
   ScriptAsset: !<reference> 1eb40896-318d-4f06-b675-881932129494
   ScriptInputsDefault:
-    handType: true
     checkType: true
     targetObject: true
-    visualizeDistance: true
     minDistance: true
     sendTriggers: true
     enterRangeTrigger: true
@@ -419,14 +405,14 @@
     {}
   ScriptInputs:
     "":
-      handType: 0
+      handType: 2
       checkType: 0
       jointGroupA: !<string[]>
         - ring-3
       jointGroupB: !<string[]>
         - pinky-3
       targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      visualizeDistance: false
+      visualizeDistance: true
       checkDistance: true
       minDistance: !<float> 0.000000
       maxDistance: !<float> 3.000000
@@ -465,10 +451,8 @@
   Enabled: true
   ScriptAsset: !<reference> 1eb40896-318d-4f06-b675-881932129494
   ScriptInputsDefault:
-    handType: true
     checkType: true
     targetObject: true
-    visualizeDistance: true
     sendTriggers: true
     enterRangeTrigger: true
     exitRangeTrigger: true
@@ -476,14 +460,14 @@
     {}
   ScriptInputs:
     "":
-      handType: 0
+      handType: 2
       checkType: 0
       jointGroupA: !<string[]>
         - mid-3
       jointGroupB: !<string[]>
         - wrist
       targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      visualizeDistance: false
+      visualizeDistance: true
       checkDistance: true
       minDistance: !<float> 7.000000
       maxDistance: !<float> 11.000000
@@ -500,10 +484,8 @@
   Enabled: true
   ScriptAsset: !<reference> 1eb40896-318d-4f06-b675-881932129494
   ScriptInputsDefault:
-    handType: true
     checkType: true
     targetObject: true
-    visualizeDistance: true
     minDistance: true
     sendTriggers: true
     enterRangeTrigger: true
@@ -512,14 +494,14 @@
     {}
   ScriptInputs:
     "":
-      handType: 0
+      handType: 2
       checkType: 0
       jointGroupA: !<string[]>
         - thumb-3
       jointGroupB: !<string[]>
         - index-1
       targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      visualizeDistance: false
+      visualizeDistance: true
       checkDistance: true
       minDistance: !<float> 0.000000
       maxDistance: !<float> 4.000000

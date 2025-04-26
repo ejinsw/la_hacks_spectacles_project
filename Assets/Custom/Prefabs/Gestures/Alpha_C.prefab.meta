@@ -36,7 +36,6 @@
   Enabled: true
   ScriptAsset: !<reference> 1eb40896-318d-4f06-b675-881932129494
   ScriptInputsDefault:
-    handType: true
     checkType: true
     targetObject: true
     sendTriggers: true
@@ -46,7 +45,7 @@
     {}
   ScriptInputs:
     "":
-      handType: 0
+      handType: 2
       checkType: 0
       jointGroupA: !<string[]>
         - mid-3
@@ -55,8 +54,8 @@
       targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       visualizeDistance: true
       checkDistance: true
-      minDistance: !<float> 2.000000
-      maxDistance: 7.500000
+      minDistance: !<float> 3.000000
+      maxDistance: !<float> 8.000000
       sendTriggers: false
       enterRangeTrigger: ""
       exitRangeTrigger: ""
@@ -69,6 +68,21 @@
     - !<own> 2ab46574-1443-4a01-8397-3afa9ee86220
   LazyLoading: false
   RetainAssets: true
+- !<SceneObject/21963ea5-61c1-49d2-9cae-c84d2d214c24>
+  PrefabRemaps:
+    []
+  Name: MidTip_to_Wrist
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 5a8dc185-c84a-4c72-886e-5ae2f45569ea
 - !<ScriptComponent/2992cedf-5f4b-4dfa-977e-bc97e487b536>
   PrefabRemaps:
     []
@@ -104,7 +118,7 @@
   PrefabRemaps:
     []
   Name: Alpha_C
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -119,6 +133,7 @@
     - !<own> 723bb640-a015-4c47-9a9a-98bf1899e49d
     - !<own> 4933e9cc-82d7-4f20-8551-3fb1d7b71fb1
     - !<own> a983ee76-df53-4892-9314-ea8f1d5cf05f
+    - !<own> 21963ea5-61c1-49d2-9cae-c84d2d214c24
   Components:
     - !<own> 2992cedf-5f4b-4dfa-977e-bc97e487b536
 - !<ScriptComponent/37022224-ad86-4b74-afe2-b1e0d1f68c56>
@@ -128,7 +143,6 @@
   Enabled: true
   ScriptAsset: !<reference> 1eb40896-318d-4f06-b675-881932129494
   ScriptInputsDefault:
-    handType: true
     checkType: true
     targetObject: true
     sendTriggers: true
@@ -138,7 +152,7 @@
     {}
   ScriptInputs:
     "":
-      handType: 0
+      handType: 2
       checkType: 0
       jointGroupA: !<string[]>
         - pinky-3
@@ -147,8 +161,8 @@
       targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       visualizeDistance: true
       checkDistance: true
-      minDistance: !<float> 2.000000
-      maxDistance: 7.500000
+      minDistance: !<float> 3.000000
+      maxDistance: 8.500000
       sendTriggers: false
       enterRangeTrigger: ""
       exitRangeTrigger: ""
@@ -162,7 +176,6 @@
   Enabled: true
   ScriptAsset: !<reference> 1eb40896-318d-4f06-b675-881932129494
   ScriptInputsDefault:
-    handType: true
     checkType: true
     targetObject: true
     minDistance: true
@@ -173,7 +186,7 @@
     {}
   ScriptInputs:
     "":
-      handType: 0
+      handType: 2
       checkType: 0
       jointGroupA: !<string[]>
         - pinky-3
@@ -183,7 +196,7 @@
       visualizeDistance: true
       checkDistance: true
       minDistance: !<float> 0.000000
-      maxDistance: 1.500000
+      maxDistance: 3.500000
       sendTriggers: false
       enterRangeTrigger: ""
       exitRangeTrigger: ""
@@ -197,7 +210,6 @@
   Enabled: true
   ScriptAsset: !<reference> 1eb40896-318d-4f06-b675-881932129494
   ScriptInputsDefault:
-    handType: true
     checkType: true
     targetObject: true
     minDistance: true
@@ -208,7 +220,7 @@
     {}
   ScriptInputs:
     "":
-      handType: 0
+      handType: 2
       checkType: 0
       jointGroupA: !<string[]>
         - mid-3
@@ -218,7 +230,7 @@
       visualizeDistance: true
       checkDistance: true
       minDistance: !<float> 0.000000
-      maxDistance: 1.500000
+      maxDistance: 3.500000
       sendTriggers: false
       enterRangeTrigger: ""
       exitRangeTrigger: ""
@@ -232,7 +244,6 @@
   Enabled: true
   ScriptAsset: !<reference> 1eb40896-318d-4f06-b675-881932129494
   ScriptInputsDefault:
-    handType: true
     checkType: true
     targetObject: true
     minDistance: true
@@ -243,7 +254,7 @@
     {}
   ScriptInputs:
     "":
-      handType: 0
+      handType: 2
       checkType: 0
       jointGroupA: !<string[]>
         - index-3
@@ -253,7 +264,7 @@
       visualizeDistance: true
       checkDistance: true
       minDistance: !<float> 0.000000
-      maxDistance: 1.500000
+      maxDistance: 3.500000
       sendTriggers: false
       enterRangeTrigger: ""
       exitRangeTrigger: ""
@@ -275,6 +286,39 @@
     []
   Components:
     - !<own> 3ce6da5c-d514-4462-b97f-9d5975641e72
+- !<ScriptComponent/5a8dc185-c84a-4c72-886e-5ae2f45569ea>
+  PrefabRemaps:
+    []
+  Name: GetJointDistance
+  Enabled: true
+  ScriptAsset: !<reference> 1eb40896-318d-4f06-b675-881932129494
+  ScriptInputsDefault:
+    checkType: true
+    targetObject: true
+    sendTriggers: true
+    enterRangeTrigger: true
+    exitRangeTrigger: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      handType: 2
+      checkType: 0
+      jointGroupA: !<string[]>
+        - mid-3
+      jointGroupB: !<string[]>
+        - wrist
+      targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      visualizeDistance: true
+      checkDistance: true
+      minDistance: !<float> 10.000000
+      maxDistance: !<float> 15.000000
+      sendTriggers: false
+      enterRangeTrigger: ""
+      exitRangeTrigger: ""
+  ScriptTypes:
+    "":
+      {}
 - !<SceneObject/633902ba-ec34-4624-bf8b-24f4862c0da1>
   PrefabRemaps:
     []
@@ -342,7 +386,6 @@
   Enabled: true
   ScriptAsset: !<reference> 1eb40896-318d-4f06-b675-881932129494
   ScriptInputsDefault:
-    handType: true
     checkType: true
     targetObject: true
     sendTriggers: true
@@ -352,7 +395,7 @@
     {}
   ScriptInputs:
     "":
-      handType: 0
+      handType: 2
       checkType: 0
       jointGroupA: !<string[]>
         - ring-3
@@ -361,8 +404,8 @@
       targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       visualizeDistance: true
       checkDistance: true
-      minDistance: !<float> 2.000000
-      maxDistance: 7.500000
+      minDistance: !<float> 3.000000
+      maxDistance: 8.500000
       sendTriggers: false
       enterRangeTrigger: ""
       exitRangeTrigger: ""
@@ -396,6 +439,7 @@
     - 64afb1f3-a5e9-4356-a003-8708f59e8bbc: 47f6e343-a4f9-4d26-9b7c-73c16fd4e7ce
     - 6955d6a1-8d2b-4ecd-9a41-75ce9880c5c7: 723bb640-a015-4c47-9a9a-98bf1899e49d
     - 6a0daba0-e762-4e8e-b9f6-a728f96f5310: 097120f8-36e5-49b1-83b4-d038d3341609
+    - 75935abc-c1f9-4008-8d4d-c9101918a948: 5a8dc185-c84a-4c72-886e-5ae2f45569ea
     - 82a01de8-bffd-442c-9b66-dcd64697cad6: 4933e9cc-82d7-4f20-8551-3fb1d7b71fb1
     - 849d3b3e-6202-487a-8dd8-04c40b7a08a2: 633902ba-ec34-4624-bf8b-24f4862c0da1
     - 971712cc-7776-4ec3-b8b7-817858561c15: 3bdc5637-3c88-4f23-9c20-c588bc0d8423
@@ -403,6 +447,7 @@
     - c4f9cf41-1ab8-4db6-a4e8-1cf797dbcef9: 1ff030ed-37b7-44cb-8eea-9b36a0f66057
     - cc21cf6c-af0d-42f4-9073-fbb3b0afcec0: de88f06d-2df3-42f4-a03b-820020198f8e
     - eeedd72d-8c64-44b9-910e-85b0d2a7c855: 3ce6da5c-d514-4462-b97f-9d5975641e72
+    - f7217038-53a7-4f0b-a6f6-5456479aae7c: 21963ea5-61c1-49d2-9cae-c84d2d214c24
   SourceState: !<own> 1ff030ed-37b7-44cb-8eea-9b36a0f66057
 - !<ScriptComponent/fa548e94-a71b-4d19-b4c8-6a376c0d4ea4>
   PrefabRemaps:
@@ -411,7 +456,6 @@
   Enabled: true
   ScriptAsset: !<reference> 1eb40896-318d-4f06-b675-881932129494
   ScriptInputsDefault:
-    handType: true
     checkType: true
     targetObject: true
     sendTriggers: true
@@ -421,7 +465,7 @@
     {}
   ScriptInputs:
     "":
-      handType: 0
+      handType: 2
       checkType: 0
       jointGroupA: !<string[]>
         - index-3
@@ -430,8 +474,8 @@
       targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       visualizeDistance: true
       checkDistance: true
-      minDistance: !<float> 2.000000
-      maxDistance: 7.500000
+      minDistance: !<float> 3.000000
+      maxDistance: !<float> 8.000000
       sendTriggers: false
       enterRangeTrigger: ""
       exitRangeTrigger: ""

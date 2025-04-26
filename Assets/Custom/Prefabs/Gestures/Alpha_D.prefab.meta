@@ -55,7 +55,7 @@
       targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       visualizeDistance: true
       checkDistance: true
-      minDistance: !<float> 8.000000
+      minDistance: !<float> 9.000000
       maxDistance: !<float> 14.000000
       sendTriggers: false
       enterRangeTrigger: ""
@@ -63,26 +63,11 @@
   ScriptTypes:
     "":
       {}
-- !<SceneObject/27974030-32fd-4972-b4c1-49c7e6804809>
-  PrefabRemaps:
-    []
-  Name: ThumbTip_to_Wrist
-  Enabled: true
-  Layers: 1
-  LocalTransform:
-    position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    hasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> 76760644-bfb5-4dad-abf6-902682d7b167
 - !<SceneObject/38b0a4cd-bb60-4ebd-9e86-4873a4ef4ecb>
   PrefabRemaps:
     []
   Name: Alpha_D
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -94,7 +79,6 @@
     - !<own> 024a9ae9-ac30-4f75-81a2-afa3fa1ede5b
     - !<own> fb537b33-350c-4d48-984d-b929c77d5672
     - !<own> bb2f59c6-3c22-4244-8763-9c994ab99621
-    - !<own> 27974030-32fd-4972-b4c1-49c7e6804809
     - !<own> 8e99b25d-3a96-461f-953a-b537b075e4ff
   Components:
     - !<own> e353bb19-6cc3-4466-b4e3-87852d895a3e
@@ -126,7 +110,7 @@
       visualizeDistance: true
       checkDistance: true
       minDistance: !<float> 0.000000
-      maxDistance: !<float> 2.000000
+      maxDistance: 2.500000
       sendTriggers: false
       enterRangeTrigger: ""
       exitRangeTrigger: ""
@@ -154,40 +138,6 @@
     - !<own> 38b0a4cd-bb60-4ebd-9e86-4873a4ef4ecb
   LazyLoading: false
   RetainAssets: true
-- !<ScriptComponent/76760644-bfb5-4dad-abf6-902682d7b167>
-  PrefabRemaps:
-    []
-  Name: GetJointDistance
-  Enabled: true
-  ScriptAsset: !<reference> 1eb40896-318d-4f06-b675-881932129494
-  ScriptInputsDefault:
-    handType: true
-    checkType: true
-    targetObject: true
-    sendTriggers: true
-    enterRangeTrigger: true
-    exitRangeTrigger: true
-  ScriptTypesDefault:
-    {}
-  ScriptInputs:
-    "":
-      handType: 0
-      checkType: 0
-      jointGroupA: !<string[]>
-        - thumb-3
-      jointGroupB: !<string[]>
-        - wrist
-      targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      visualizeDistance: true
-      checkDistance: true
-      minDistance: !<float> 10.000000
-      maxDistance: !<float> 15.000000
-      sendTriggers: false
-      enterRangeTrigger: ""
-      exitRangeTrigger: ""
-  ScriptTypes:
-    "":
-      {}
 - !<SceneObject/8e99b25d-3a96-461f-953a-b537b075e4ff>
   PrefabRemaps:
     []
@@ -229,8 +179,8 @@
       targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       visualizeDistance: true
       checkDistance: true
-      minDistance: !<float> 16.000000
-      maxDistance: !<float> 20.000000
+      minDistance: !<float> 14.000000
+      maxDistance: !<float> 22.000000
       sendTriggers: false
       enterRangeTrigger: ""
       exitRangeTrigger: ""
@@ -278,7 +228,7 @@
       targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       visualizeDistance: true
       checkDistance: true
-      minDistance: !<float> 8.000000
+      minDistance: !<float> 9.000000
       maxDistance: !<float> 14.000000
       sendTriggers: false
       enterRangeTrigger: ""
@@ -343,7 +293,7 @@
       targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       visualizeDistance: true
       checkDistance: true
-      minDistance: !<float> 8.000000
+      minDistance: !<float> 9.000000
       maxDistance: !<float> 14.000000
       sendTriggers: false
       enterRangeTrigger: ""
@@ -360,12 +310,10 @@
     - 54d770c4-78ca-45b7-8a79-9b5be584c555: b1f99cc9-92b9-4218-a4b5-90ed37aab025
     - 603e9bf1-60cd-45d0-a3c3-63ebf5dc5405: 3de86a31-44a0-48f6-94d0-38a5bb90666b
     - 61446905-a4b9-4579-868c-c4f3564377ad: 38b0a4cd-bb60-4ebd-9e86-4873a4ef4ecb
-    - 7934f465-090e-4e4e-afd6-d28ee35a7618: 76760644-bfb5-4dad-abf6-902682d7b167
     - 7f5a0d2d-0966-41e8-aba6-2b3bafd6e317: 1a1e2bc5-3bf2-40a8-af80-c98ceec61a37
     - 8ef472e1-508b-44e2-a30a-d3dd1c94708b: 8e99b25d-3a96-461f-953a-b537b075e4ff
     - 94a974dc-669f-48e3-a2ee-c4a68e9b7993: 4b321729-a79d-468c-ac47-2d2614b0bb02
     - b91a42b9-0360-4f6e-bddd-f69042e71606: f104c7c9-844c-4cde-9e56-be0065070918
-    - e8a3826d-7c38-47dd-a2c1-6c53a8e775f5: 27974030-32fd-4972-b4c1-49c7e6804809
     - fa75c4ab-624d-4103-b4f6-a9390bb5264c: bb2f59c6-3c22-4244-8763-9c994ab99621
     - facd7f82-8f5b-4609-8404-aee4107235d8: e353bb19-6cc3-4466-b4e3-87852d895a3e
   SourceState: !<own> 742bc09a-c920-4730-9a85-29bdb0534f9a

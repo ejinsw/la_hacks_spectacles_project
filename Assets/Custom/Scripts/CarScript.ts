@@ -21,6 +21,11 @@ export class CarScript extends BaseScriptComponent {
     private rightButton: PinchButton
 
     onAwake() {
+        this.forwardButton.enabled = true
+        this.leftButton.enabled = true
+        this.backButton.enabled = true
+        this.rightButton.enabled = true
+
         print("AWAKENING CAR")
         this.forwardButton.onButtonPinched.add(() => {
             this.moveForward()

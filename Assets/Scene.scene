@@ -6291,7 +6291,7 @@
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: -0.000000, y: 0.000000, z: 0.000000}
+    position: {x: -0.000000, y: 0.000000, z: 0.100000}
     rotation: {x: 0.000000, y: -9.999996, z: 0.000000}
     scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
@@ -7736,7 +7736,7 @@
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: -0.000000, y: 0.000000, z: 0.000000}
+    position: {x: -0.000000, y: 0.000000, z: 0.100000}
     rotation: {x: 0.000000, y: -9.999994, z: 0.000000}
     scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
@@ -11835,7 +11835,7 @@
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: -0.000000, y: 0.000000, z: 0.000000}
+    position: {x: -0.000000, y: 0.000000, z: 0.100000}
     rotation: {x: 0.000000, y: -9.999996, z: 0.000000}
     scale: {x: 1.000000, y: 1.000000, z: 0.400000}
     hasSegmentScaleCompensation: false
@@ -12070,8 +12070,8 @@
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: 0.000002, y: 0.000000, z: 0.000000}
-    rotation: {x: 0.000000, y: -9.999999, z: 0.000000}
+    position: {x: 0.000002, y: 0.000000, z: 0.100000}
+    rotation: {x: 0.000000, y: -10.000000, z: 0.000000}
     scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
   Children:

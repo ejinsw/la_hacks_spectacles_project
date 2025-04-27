@@ -1,0 +1,54 @@
+- !<AssetImportMetadata/60365208-8fff-4248-88b0-5fa95e43e851>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> d906b240-cc8c-450e-9272-028aa7e803d0
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> d906b240-cc8c-450e-9272-028aa7e803d0
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> e7b45399-6828-4093-8753-f65e6b0f5df3
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/e7b45399-6828-4093-8753-f65e6b0f5df3>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 2c98b6ae-9cc3-4b09-82b0-39061bb71bf0
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    backButton: false
+    carPhysics: false
+    forwardButton: false
+    leftButton: false
+    rightButton: false
+    speed: false
+  ScriptTypesHidden:
+    {}
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - carPhysics: !<reference.BodyComponent> 00000000-0000-0000-0000-000000000000
+      forwardButton: !<MappingBased.PinchButton> 00000000-0000-0000-0000-000000000000
+      backButton: !<MappingBased.PinchButton> 00000000-0000-0000-0000-000000000000
+      leftButton: !<MappingBased.PinchButton> 00000000-0000-0000-0000-000000000000
+      rightButton: !<MappingBased.PinchButton> 00000000-0000-0000-0000-000000000000
+      speed: !<float> 0.000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input float speed
+    - // @input Component.BodyComponent carPhysics
+    - // @input PinchButton forwardButton
+    - // @input PinchButton backButton
+    - // @input PinchButton leftButton
+    - // @input PinchButton rightButton

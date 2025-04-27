@@ -288,7 +288,7 @@
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 90.000000, z: 0.000000}
     scale: {x: 100.000000, y: 100.000000, z: 100.000000}
     hasSegmentScaleCompensation: false
   Children:
@@ -1114,6 +1114,27 @@
     - !<own> 59ed5ada-8c73-4b78-a8bf-6dd568fa5ba5
   Components:
     - !<own> e5e98b4b-fe2e-4664-b9d5-1ab84c7ee4d6
+- !<ScriptComponent/a5cddcfe-6b0d-4184-a5e2-03b6d3b88c8a>
+  PrefabRemaps:
+    []
+  Name: CarScript
+  Enabled: true
+  ScriptAsset: !<reference> d906b240-cc8c-450e-9272-028aa7e803d0
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      speed: !<float> 2.000000
+      carPhysics: !<reference.BodyComponent> 44d3b744-2c2a-4aaf-b2d4-904444a2c3d0
+      forwardButton: !<MappingBased.PinchButton> bb668734-6666-45d7-b7c5-7415d89eefbe
+      backButton: !<MappingBased.PinchButton> b39facb3-d9d6-4eb4-af34-e2d52f15b83b
+      leftButton: !<MappingBased.PinchButton> 2798777e-3e75-468d-b38d-bf334e9fa091
+      rightButton: !<MappingBased.PinchButton> 1146b67a-1021-4633-a613-d6045697ffb0
+  ScriptTypes:
+    "":
+      {}
 - !<SceneObject/a65e50ba-fcf0-4a87-8f1d-a1807b37ef8b>
   PrefabRemaps:
     []
@@ -1149,6 +1170,7 @@
     - !<own> 3cdabea6-2e0e-4aba-8f3d-a906d477b9c9
     - !<own> 8eb53814-5973-4135-8fb1-1650da455f2c
     - !<own> ef44ec45-d303-44af-bc9b-70c37c7564b3
+    - !<own> a5cddcfe-6b0d-4184-a5e2-03b6d3b88c8a
 - !<SceneObject/ac9e14db-0ec6-4291-8dbd-cbd1c4c15a5d>
   PrefabRemaps:
     []

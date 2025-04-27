@@ -95,7 +95,7 @@
       visualizeDistance: false
       checkDistance: true
       minDistance: !<float> 1.000000
-      maxDistance: !<float> 5.000000
+      maxDistance: 6.500000
       sendTriggers: false
       enterRangeTrigger: ""
       exitRangeTrigger: ""

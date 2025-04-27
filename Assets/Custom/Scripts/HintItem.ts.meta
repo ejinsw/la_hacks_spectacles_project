@@ -26,15 +26,35 @@
   CurrentVisibility: Editable
   MaxVisibility: Editable
   ScriptInputsHidden:
-    {}
+    letterObjects: false
+    letters: false
+    otherTriggers: false
+    parentObject: false
+    prefab: false
+    transcriptText: false
+    triggerName: false
   ScriptTypesHidden:
     {}
   DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
   DefaultScriptInputs:
-    -
-      {}
+    - triggerName: ""
+      otherTriggers: !<string[]>
+        []
+      letters: !<string[]>
+        []
+      letterObjects: !<reference.SceneObject[]>
+        []
+      prefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      parentObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      transcriptText: !<reference.Text> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
   InputLines:
-    []
+    - // @input string triggerName
+    - "// @input string[] otherTriggers"
+    - "// @input string[] letters"
+    - "// @input SceneObject[] letterObjects"
+    - // @input Asset.ObjectPrefab prefab
+    - // @input SceneObject parentObject
+    - // @input Component.Text transcriptText

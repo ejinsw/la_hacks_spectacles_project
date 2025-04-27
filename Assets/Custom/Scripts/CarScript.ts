@@ -20,13 +20,12 @@ export class CarScript extends BaseScriptComponent {
     @input
     private rightButton: PinchButton
 
-    onAwake() {
-        this.forwardButton.enabled = true
-        this.leftButton.enabled = true
-        this.backButton.enabled = true
-        this.rightButton.enabled = true
+    @input
+    private buttonTransform: SceneObject;
 
-        print("AWAKENING CAR")
+    onAwake() {
+        this.buttonTransform.getTransform().setWorldPosition(new vec3(0, -10, -30))
+
         this.forwardButton.onButtonPinched.add(() => {
             this.moveForward()
         });

@@ -1132,6 +1132,7 @@
       backButton: !<MappingBased.PinchButton> b39facb3-d9d6-4eb4-af34-e2d52f15b83b
       leftButton: !<MappingBased.PinchButton> 2798777e-3e75-468d-b38d-bf334e9fa091
       rightButton: !<MappingBased.PinchButton> 1146b67a-1021-4633-a613-d6045697ffb0
+      buttonTransform: !<reference.SceneObject> 41879f22-e51d-492c-975a-e5c299bc0b78
   ScriptTypes:
     "":
       {}

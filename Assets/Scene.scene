@@ -1,10 +1,12 @@
 - !<Scene/0a1ccb1a-fe88-4fbb-9883-e3af3c75fd99>
   PackagePath: ""
   objects:
+    - !<own> 844c04ad-8f0a-4474-8e8a-92be930a96f9
     - !<own> 00000000-0000-0065-0000-000000000064
     - !<own> d1c2c44a-c3ea-442f-a0a3-e64e5dea7bee
     - !<own> e7cbb86a-f989-4a6a-86eb-0fb7f8f85a8e
     - !<own> 2a13b734-625d-421a-b7f1-ae1bdadb8d87
+    - !<own> 41879f22-e51d-492c-975a-e5c299bc0b78
     - !<own> d654b6a2-1697-42e2-afcb-66173fa17f19
     - !<own> 7854a09f-8dd7-465b-9081-71ccf14177ce
     - !<own> 0c7311f1-c96c-4234-9597-b071692a5467
@@ -37,11 +39,9 @@
     scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
   Children:
-    - !<own> 844c04ad-8f0a-4474-8e8a-92be930a96f9
     - !<own> 841c1472-c31b-4207-906f-7f7266979bd7
     - !<own> a1874a66-4095-486b-869e-04cdd5118a23
     - !<own> 4a10babe-f5f4-4c7d-a209-796271c23be4
-    - !<own> 41879f22-e51d-492c-975a-e5c299bc0b78
   Components:
     - !<own> 00000000-0000-0065-0000-000000000065
     - !<own> dfa5d103-5876-46c6-8824-7f4bf40e08a9
@@ -2539,12 +2539,12 @@
   PrefabRemaps:
     []
   Name: Floor
-  Enabled: false
+  Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: 0.000000, y: -10.000000, z: -50.000000}
+    position: {x: 0.000000, y: -150.000000, z: -50.000000}
     rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    scale: {x: 1000.000000, y: 1000.000000, z: 1000.000000}
     hasSegmentScaleCompensation: false
   Children:
     []
@@ -4287,8 +4287,8 @@
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    position: {x: 0.000000, y: 0.000000, z: 240.000000}
+    rotation: {x: -15.021838, y: 0.000000, z: 0.000000}
     scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
   Children:
@@ -6472,11 +6472,11 @@
   PrefabRemaps:
     []
   Name: moveLeft
-  Enabled: false
+  Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: -2.500000, y: -35.000000, z: -40.000000}
-    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    position: {x: -5.500000, y: -5.000000, z: 0.000000}
+    rotation: {x: 45.000000, y: 0.000000, z: 0.000000}
     scale: {x: 0.400000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
   Children:
@@ -6652,11 +6652,11 @@
   PrefabRemaps:
     []
   Name: moveForward
-  Enabled: false
+  Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: 3.000000, y: -30.000000, z: -40.000000}
-    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 45.000000, y: 0.000000, z: 0.000000}
     scale: {x: 0.400000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
   Children:
@@ -7880,7 +7880,7 @@
   ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   ShadowDensity: 1.000000
   Materials:
-    - !<reference> a77d2ca6-a245-4565-ab3b-276059eef50e
+    - !<reference> c6b4ef1a-3bc9-41a0-a14d-8c334639c68c
   Mesh: !<reference> 690a9a1f-57bb-4873-bee8-52e89aa45199
   Skin: !<reference> 00000000-0000-0000-0000-000000000000
   BlendShapesEnabled: true
@@ -8434,7 +8434,7 @@
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: 0.000000, y: -30.000000, z: -180.000000}
+    position: {x: 0.000000, y: -30.000000, z: -140.000000}
     rotation: {x: 0.000000, y: 9.999999, z: 0.000000}
     scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
@@ -9156,7 +9156,7 @@
       visualizeDistance: false
       checkDistance: true
       minDistance: !<float> 1.000000
-      maxDistance: !<float> 5.000000
+      maxDistance: 6.500000
       sendTriggers: false
       enterRangeTrigger: ""
       exitRangeTrigger: ""
@@ -10054,11 +10054,11 @@
   PrefabRemaps:
     []
   Name: moveBackward
-  Enabled: false
+  Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: 3.000000, y: -40.000000, z: -40.000000}
-    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    position: {x: 0.000000, y: -10.000000, z: 0.000000}
+    rotation: {x: 45.000000, y: 0.000000, z: 0.000000}
     scale: {x: 0.400000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
   Children:
@@ -13856,11 +13856,11 @@
   PrefabRemaps:
     []
   Name: moveRight
-  Enabled: false
+  Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: 8.500000, y: -35.000000, z: -40.000000}
-    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    position: {x: 5.500000, y: -5.000000, z: 0.000000}
+    rotation: {x: 45.000000, y: 0.000000, z: 0.000000}
     scale: {x: 0.400000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
   Children:

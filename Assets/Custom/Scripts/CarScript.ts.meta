@@ -27,6 +27,7 @@
   MaxVisibility: Editable
   ScriptInputsHidden:
     backButton: false
+    buttonTransform: false
     carPhysics: false
     forwardButton: false
     leftButton: false
@@ -42,6 +43,7 @@
       leftButton: !<MappingBased.PinchButton> 00000000-0000-0000-0000-000000000000
       rightButton: !<MappingBased.PinchButton> 00000000-0000-0000-0000-000000000000
       speed: !<float> 0.000000
+      buttonTransform: !<MappingBased.Transform> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
@@ -52,3 +54,4 @@
     - // @input PinchButton backButton
     - // @input PinchButton leftButton
     - // @input PinchButton rightButton
+    - // @input SceneObject buttonTransform

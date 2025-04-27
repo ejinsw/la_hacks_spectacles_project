@@ -25,6 +25,7 @@ export class PrefabItem extends BaseScriptComponent {
         };
     
         interactable.onInteractorTriggerStart(onTriggerStartCallback);
+
     }
 
 }

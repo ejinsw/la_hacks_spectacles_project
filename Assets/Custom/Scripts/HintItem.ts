@@ -17,23 +17,27 @@ export class HintItem extends BaseScriptComponent {
   @input
   private parentObject: SceneObject;
 
+  @input
+  private transcriptText: Text;
+
   private currentLetterIndex: number = 0;
   private isActive: boolean = false;
 
   onAwake() {
-    this.initialize();
+    print(`Awaking hint ${this.triggerName}`);
+    this.onClose();
 
     // Trigger this Hint
     (global as any).behaviorSystem.addCustomTriggerResponse(
       `receive_hint_${this.triggerName}`,
-      this.toggle
+      this.toggle.bind(this)
     );
 
     // When other hints are triggered
     for (let i = 0; i < this.otherTriggers.length; i++) {
       (global as any).behaviorSystem.addCustomTriggerResponse(
         `receive_hint_${this.otherTriggers[i]}`,
-        this.onClose
+        this.onClose.bind(this)
       );
     }
 
@@ -41,14 +45,17 @@ export class HintItem extends BaseScriptComponent {
     for (var i = 0; i < this.letters.length; i++) {
       (global as any).behaviorSystem.addCustomTriggerResponse(
         "receive_alpha_" + this.letters[i].toLowerCase(),
-        this.checkLetter(this.letters[i])
+        this.checkLetter.bind(this, this.letters[i])
       );
     }
   }
 
   checkLetter(letter: string) {
+    if (!this.isActive) return;
+
     if (this.letters[this.currentLetterIndex] === letter) {
       this.letterObjects[this.currentLetterIndex].enabled = false;
+      this.transcriptText.text += letter;
       this.currentLetterIndex++;
     }
 
@@ -58,6 +65,7 @@ export class HintItem extends BaseScriptComponent {
   }
 
   toggle() {
+    print(`Toggling hint ${this.triggerName}`);
     this.isActive = !this.isActive;
 
     if (this.isActive) {
@@ -68,6 +76,7 @@ export class HintItem extends BaseScriptComponent {
   }
 
   initialize() {
+    print(`Initializing hint ${this.triggerName}`);
     this.isActive = true;
     this.currentLetterIndex = 0;
 
@@ -77,6 +86,8 @@ export class HintItem extends BaseScriptComponent {
   }
 
   onClose() {
+    print(`Closing hint ${this.triggerName}`);
+    this.transcriptText.text = "";
     for (let i = 0; i < this.letterObjects.length; i++) {
       this.letterObjects[i].enabled = false;
     }
@@ -85,8 +96,9 @@ export class HintItem extends BaseScriptComponent {
   }
 
   onSuccess() {
+    print(`Success hint ${this.triggerName}`);
     const object = this.prefab.instantiate(this.parentObject);
-    object.getTransform().setWorldPosition(new vec3(0, -10, -100));
+    object.getTransform().setWorldPosition(new vec3(0, -10, -50));
     this.onClose();
   }
 }

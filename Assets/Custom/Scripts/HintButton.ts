@@ -10,6 +10,7 @@ export class HintButton extends BaseScriptComponent {
 
     onAwake() {
         this.pinchButton.onButtonPinched.add(() => {
+            print(`Pinched hint button ${this.triggerName}`);
             (global as any).behaviorSystem.sendCustomTrigger(`receive_hint_${this.triggerName}`)
         });
     }

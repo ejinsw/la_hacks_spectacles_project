@@ -31,6 +31,7 @@
     otherTriggers: false
     parentObject: false
     prefab: false
+    transcriptText: false
     triggerName: false
   ScriptTypesHidden:
     {}
@@ -45,6 +46,7 @@
         []
       otherTriggers: !<string[]>
         []
+      transcriptText: !<reference.Text> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
@@ -55,3 +57,4 @@
     - "// @input SceneObject[] letterObjects"
     - // @input Asset.ObjectPrefab prefab
     - // @input SceneObject parentObject
+    - // @input Component.Text transcriptText

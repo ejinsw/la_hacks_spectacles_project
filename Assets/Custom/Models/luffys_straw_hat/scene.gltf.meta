@@ -1,0 +1,273 @@
+- !<AssetImportMetadata/ba644d70-b5fc-47e3-885d-8aed7efc3142>
+  ImportedAssetIds:
+    .hidden/Strap: !<reference> 470bac8f-40b8-4992-bb35-d644b5137a7c
+    0025ed9e47ac1ef4: !<reference> e83ad731-c490-407d-8369-3b1d29cf388f
+    382fb138311bbd35: !<reference> c318a647-2c6b-41bd-92ee-5caa98bea68a
+    3c7747724c849161: !<reference> 68dd0803-2d59-4348-a353-170d073a8ac1
+    3faa5943d560b8e7: !<reference> 9e2ce850-cc6b-498c-98da-b46d75c419e7
+    4a3e924fad0e2f27: !<reference> ca93d975-e413-4043-b84a-e8dd03a0f493
+    5456cd091e7655cc: !<reference> 5a74f54a-eff3-42be-b76a-b121833d40de
+    66780cf3a4dcb2b8: !<reference> 5877c9e0-e890-48e8-94fb-f9c9e1a6ee08
+    8cc004ff93d4b7dd: !<reference> 40abb074-dbb0-4c14-94f4-af6166fbb1e6
+    975189c19714f7d1: !<reference> 454d3f4b-2459-4ea5-91b1-fd8ca86f067a
+    Materials/Strap: !<reference> 070b41db-9c05-452a-855a-21b8d885c2b1
+    Materials/Strap|Strap|GraphPassInfo: !<reference> d74d9ad6-d2cc-47bc-974d-119e95aa7d19
+    Materials/Straw_Hat: !<reference> 29986b64-874c-48c6-afe0-54f583ab26c6
+    Materials/Straw_Hat|Straw_Hat|GraphPassInfo: !<reference> 2fa916db-f717-4572-8316-4e39f4b491f0
+    Meshes/Object_0: !<reference> 060d12b6-71ee-4f6f-95ae-fdfdbf215a8e
+    Meshes/Object_1: !<reference> d91ab3d7-7e25-4dbf-ae68-4101c1e43567
+    Scene: !<reference> 233ee93b-9bea-4d48-97a6-a41dfe8b4ab9
+    Textures/Strap_metallicRoughness: !<reference> 06bfecca-9673-45ec-99d0-a2a545e008e8
+    Textures/Strap_normal: !<reference> acc9e889-fae5-4992-a102-395e545f0356
+    Textures/Straw_Hat_baseColor: !<reference> 9b9e1a14-c9f6-4539-bcef-c77d48a8ca4c
+    Textures/Straw_Hat_normal: !<reference> 764edc65-b74f-4f03-a179-2bcf876f490c
+    b6182183351515ec: !<reference> 697df02f-fa58-4d9d-a22c-db25fc01554e
+    e7b4807ff1764824: !<reference> bb1b0e89-2dd1-4762-93a6-024c7268261e
+    ff7936aad4ab157c: !<reference> 595b5518-bc5d-4035-96df-c6d79919b49b
+  ImporterName: GltfImporter
+  PrimaryAsset: !<reference> 233ee93b-9bea-4d48-97a6-a41dfe8b4ab9
+  PackageType: LegacyPackage
+  PackagePolicy: CanBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> 6d2e194e-bda8-4420-82ca-ca9aab357cbd
+  DependentFiles:
+    - scene.bin
+    - textures/Strap_metallicRoughness.png
+    - textures/Strap_normal.png
+    - textures/Straw_Hat_baseColor.png
+    - textures/Straw_Hat_normal.png
+  ImporterSettings: !<GltfImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBased
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangents: true
+    ImportMorphTargetAnimation: true
+    ConvertMetersToCentimeters: true
+    RegenerateTangents: false
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<SingleCompressionSettings>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+      Performance Compression: !<SingleCompressionSettings>
+        CompressorName: Performance
+        CompressionSettings: !<TextureCompressionSettings>
+          Level: Medium
+    ExtensionMappings:
+      mesh: None Compression
+      png: Performance Compression
+    Overrides:
+      {}
+- !<RenderMeshVisual/0577116c-e0b4-4a1f-a4e1-f8e3d09af9ee>
+  PrefabRemaps:
+    []
+  Name: Object_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 29986b64-874c-48c6-afe0-54f583ab26c6
+  Mesh: !<reference> 060d12b6-71ee-4f6f-95ae-fdfdbf215a8e
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/2c73ef41-4c14-4cc9-8670-9d660c42a803>
+  PrefabRemaps:
+    []
+  Name: Sketchfab_Scene
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> ecc6b1a6-9a76-4431-bc1b-cb78b0b12486
+  Components:
+    - !<own> e5a528f6-d6f9-4b2e-ba97-152685412aee
+- !<ObjectPrefab/5068a07b-5d9b-4148-b55b-4d8154cef079>
+  PackagePath: ""
+  objects:
+    - !<own> 78badf34-3b62-41a6-9b7a-5aa1b5960a95
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/55c4f9fd-1e67-4cc6-a548-d7dbd497f696>
+  PrefabRemaps:
+    []
+  Name: Scenes
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 2c73ef41-4c14-4cc9-8670-9d660c42a803
+  Components:
+    []
+- !<SceneObject/5c3f3d43-67e5-4a37-af2b-c1ade921164b>
+  PrefabRemaps:
+    []
+  Name: LuffyHat_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 3.946385, y: 3.946385, z: 3.946385}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 5f84791d-449d-4748-b863-3902c0dacbde
+    - !<own> 8293dc20-c79e-4121-94b8-b8c2c4cae265
+  Components:
+    []
+- !<SceneObject/5f84791d-449d-4748-b863-3902c0dacbde>
+  PrefabRemaps:
+    []
+  Name: Object_4
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 0577116c-e0b4-4a1f-a4e1-f8e3d09af9ee
+- !<SceneObject/5fb8212d-bd1b-4e06-8b86-3eccd16388ad>
+  PrefabRemaps:
+    []
+  Name: GLTF_SceneRootNode
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 90.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 5c3f3d43-67e5-4a37-af2b-c1ade921164b
+  Components:
+    []
+- !<RenderMeshVisual/64dc0865-f126-4e85-ac24-bc4f3e002ba4>
+  PrefabRemaps:
+    []
+  Name: Object_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 070b41db-9c05-452a-855a-21b8d885c2b1
+  Mesh: !<reference> d91ab3d7-7e25-4dbf-ae68-4101c1e43567
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ObjectPrefabAssetData/6d2e194e-bda8-4420-82ca-ca9aab357cbd>
+  SourceRemaps:
+    - 233ee93b-9bea-4d48-97a6-a41dfe8b4ab9: 5068a07b-5d9b-4148-b55b-4d8154cef079
+    - 40abb074-dbb0-4c14-94f4-af6166fbb1e6: e5a528f6-d6f9-4b2e-ba97-152685412aee
+    - 454d3f4b-2459-4ea5-91b1-fd8ca86f067a: 8293dc20-c79e-4121-94b8-b8c2c4cae265
+    - 5877c9e0-e890-48e8-94fb-f9c9e1a6ee08: 78badf34-3b62-41a6-9b7a-5aa1b5960a95
+    - 595b5518-bc5d-4035-96df-c6d79919b49b: ecc6b1a6-9a76-4431-bc1b-cb78b0b12486
+    - 5a74f54a-eff3-42be-b76a-b121833d40de: 2c73ef41-4c14-4cc9-8670-9d660c42a803
+    - 68dd0803-2d59-4348-a353-170d073a8ac1: 0577116c-e0b4-4a1f-a4e1-f8e3d09af9ee
+    - 697df02f-fa58-4d9d-a22c-db25fc01554e: 5f84791d-449d-4748-b863-3902c0dacbde
+    - 9e2ce850-cc6b-498c-98da-b46d75c419e7: 5c3f3d43-67e5-4a37-af2b-c1ade921164b
+    - bb1b0e89-2dd1-4762-93a6-024c7268261e: 83ec34f1-8cd7-4c13-a42e-2d24fc7feeb9
+    - c318a647-2c6b-41bd-92ee-5caa98bea68a: 64dc0865-f126-4e85-ac24-bc4f3e002ba4
+    - ca93d975-e413-4043-b84a-e8dd03a0f493: 55c4f9fd-1e67-4cc6-a548-d7dbd497f696
+    - e83ad731-c490-407d-8369-3b1d29cf388f: 5fb8212d-bd1b-4e06-8b86-3eccd16388ad
+  SourceState: !<own> 5068a07b-5d9b-4148-b55b-4d8154cef079
+- !<SceneObject/78badf34-3b62-41a6-9b7a-5aa1b5960a95>
+  PrefabRemaps:
+    []
+  Name: scene
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 55c4f9fd-1e67-4cc6-a548-d7dbd497f696
+  Components:
+    []
+- !<SceneObject/8293dc20-c79e-4121-94b8-b8c2c4cae265>
+  PrefabRemaps:
+    []
+  Name: Object_5
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 64dc0865-f126-4e85-ac24-bc4f3e002ba4
+- !<SceneObject/83ec34f1-8cd7-4c13-a42e-2d24fc7feeb9>
+  PrefabRemaps:
+    []
+  Name: root
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 5fb8212d-bd1b-4e06-8b86-3eccd16388ad
+  Components:
+    []
+- !<AnimationPlayer/e5a528f6-d6f9-4b2e-ba97-152685412aee>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  Autoplay: true
+  ClipRangeType: Frames
+  AnimationClips:
+    []
+- !<SceneObject/ecc6b1a6-9a76-4431-bc1b-cb78b0b12486>
+  PrefabRemaps:
+    []
+  Name: Sketchfab_model
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: -90.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 83ec34f1-8cd7-4c13-a42e-2d24fc7feeb9
+  Components:
+    []

@@ -39,7 +39,6 @@
     handType: true
     checkType: true
     targetObject: true
-    visualizeDistance: true
     sendTriggers: true
     enterRangeTrigger: true
     exitRangeTrigger: true
@@ -54,7 +53,7 @@
       jointGroupB: !<string[]>
         - wrist
       targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      visualizeDistance: false
+      visualizeDistance: true
       checkDistance: true
       minDistance: !<float> 9.000000
       maxDistance: !<float> 14.000000
@@ -68,7 +67,7 @@
   PrefabRemaps:
     []
   Name: Alpha_D
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -93,7 +92,6 @@
     handType: true
     checkType: true
     targetObject: true
-    visualizeDistance: true
     minDistance: true
     sendTriggers: true
     enterRangeTrigger: true
@@ -109,7 +107,7 @@
       jointGroupB: !<string[]>
         - mid-3
       targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      visualizeDistance: false
+      visualizeDistance: true
       checkDistance: true
       minDistance: !<float> 0.000000
       maxDistance: 2.500000
@@ -165,7 +163,6 @@
     handType: true
     checkType: true
     targetObject: true
-    visualizeDistance: true
     sendTriggers: true
     enterRangeTrigger: true
     exitRangeTrigger: true
@@ -180,7 +177,7 @@
       jointGroupB: !<string[]>
         - wrist
       targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      visualizeDistance: false
+      visualizeDistance: true
       checkDistance: true
       minDistance: !<float> 14.000000
       maxDistance: !<float> 22.000000
@@ -215,7 +212,6 @@
     handType: true
     checkType: true
     targetObject: true
-    visualizeDistance: true
     sendTriggers: true
     enterRangeTrigger: true
     exitRangeTrigger: true
@@ -230,7 +226,7 @@
       jointGroupB: !<string[]>
         - wrist
       targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      visualizeDistance: false
+      visualizeDistance: true
       checkDistance: true
       minDistance: !<float> 9.000000
       maxDistance: !<float> 14.000000
@@ -281,7 +277,6 @@
     handType: true
     checkType: true
     targetObject: true
-    visualizeDistance: true
     sendTriggers: true
     enterRangeTrigger: true
     exitRangeTrigger: true
@@ -296,7 +291,7 @@
       jointGroupB: !<string[]>
         - wrist
       targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      visualizeDistance: false
+      visualizeDistance: true
       checkDistance: true
       minDistance: !<float> 9.000000
       maxDistance: !<float> 14.000000

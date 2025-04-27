@@ -18,7 +18,7 @@
   PrefabRemaps:
     []
   Name: Alpha_A
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -95,7 +95,6 @@
   ScriptInputsDefault:
     checkType: true
     targetObject: true
-    visualizeDistance: true
     minDistance: true
     sendTriggers: true
     enterRangeTrigger: true
@@ -111,7 +110,7 @@
       jointGroupB: !<string[]>
         - mid-3
       targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      visualizeDistance: false
+      visualizeDistance: true
       checkDistance: true
       minDistance: !<float> 0.000000
       maxDistance: 3.500000
@@ -211,7 +210,6 @@
   ScriptInputsDefault:
     checkType: true
     targetObject: true
-    visualizeDistance: true
     minDistance: true
     sendTriggers: true
     enterRangeTrigger: true
@@ -227,7 +225,7 @@
       jointGroupB: !<string[]>
         - ring-3
       targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      visualizeDistance: false
+      visualizeDistance: true
       checkDistance: true
       minDistance: !<float> 0.000000
       maxDistance: 3.500000
@@ -399,7 +397,6 @@
   ScriptInputsDefault:
     checkType: true
     targetObject: true
-    visualizeDistance: true
     minDistance: true
     sendTriggers: true
     enterRangeTrigger: true
@@ -415,7 +412,7 @@
       jointGroupB: !<string[]>
         - pinky-3
       targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      visualizeDistance: false
+      visualizeDistance: true
       checkDistance: true
       minDistance: !<float> 0.000000
       maxDistance: 3.500000
@@ -489,7 +486,6 @@
   ScriptInputsDefault:
     checkType: true
     targetObject: true
-    visualizeDistance: true
     minDistance: true
     sendTriggers: true
     enterRangeTrigger: true
@@ -505,7 +501,7 @@
       jointGroupB: !<string[]>
         - index-1
       targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      visualizeDistance: false
+      visualizeDistance: true
       checkDistance: true
       minDistance: !<float> 0.000000
       maxDistance: 3.500000

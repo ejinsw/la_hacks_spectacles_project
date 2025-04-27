@@ -1783,7 +1783,7 @@
         - !<reference> ddd1d7a2-7c56-4ec6-aded-07b89f4a7caf
         - !<reference> d81fe2dd-c3d1-4c52-a7f1-b5cef463b3bd
         - !<reference> f196fbcd-c960-46e3-a90b-0975e25d8b4d
-      prefab: !<reference.ObjectPrefab> e9b074dc-2919-4451-8330-484694fa3fbe
+      prefab: !<reference.ObjectPrefab> 4b5bc894-d645-4805-827d-672b47f6906e
       parentObject: !<reference.SceneObject> d654b6a2-1697-42e2-afcb-66173fa17f19
       transcriptText: !<reference.Text> dcb0e7c3-bcad-4b2e-99ea-01c94f6c604e
   ScriptTypes:
